@@ -1,0 +1,100 @@
+
+/*******Contact Page**********/
+
+.contact-box,
+.about-box{
+  width: 20em;
+  margin:auto;
+  position:relative;
+}
+
+.contact-box p,
+p.about-title,
+.work-desc p{
+    margin: 3em auto;
+    text-align: right;
+    color: #c9d1d3;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.contact-buttons,
+ul.about-text{
+  margin-bottom:5em;
+  padding: 0;
+}
+
+.contact-box a.contact {
+    color: rgba(242,116,97,.88);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: .7;
+    letter-spacing: -5px;
+    z-index: 111;
+    position: relative;
+    display: block;
+}
+
+.contact-box a.contact:nth-child(2n+2) {
+    color: rgba(245,157,144,.88);
+}
+
+a.contact.email {
+    font-size: 90px;
+}
+a.contact.linkedin {
+    font-size: 63px;
+}
+a.contact.instagram {
+    font-size: 50px;
+}
+a.contact.ywot {
+    font-size: 91px;
+}
+a.contact.github {
+    font-size: 74px;
+}
+
+
+@media screen  and (max-width:750px) and (orientation:landscape){
+  .contact-box p,
+  .about-box p {
+    margin-top: 6%;
+  }
+}
+
+@media screen and (min-width: 770px){
+  .contact-box,
+  .about-box {
+    width: 50em;
+  }
+  .contact-box p,
+  p.about-title,
+  .work-desc p {
+    margin-top: 3em;
+    margin-bottom: 5.5em;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 10px;
+    }
+
+
+  a.contact.email:hover,
+  a.contact.email:active,
+  a.contact.linkedin:hover,
+  a.contact.linkedin:active,
+  a.contact.instagram:hover,
+  a.contact.instagram:active,
+  a.contact.ywot:hover,
+  a.contact.ywot:active,
+  a.contact.github:hover,
+  a.contact.github:active {
+      color: #41b4af;
+      z-index: 222 !important;
+  }
+  .contact-box a.contact {
+    zoom:2.5;
+    font-size: 50px;
+    line-height: .58;
+  }
+}

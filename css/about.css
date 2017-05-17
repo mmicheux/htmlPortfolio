@@ -1,0 +1,102 @@
+
+/*******About Page**********/
+.about .main{
+  border-bottom-color: #f27461 !important;
+}
+
+.about-desc {
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0;
+    line-height: .7;
+    letter-spacing: -5px;
+    color:  rgba(65, 180, 175, 0.88);
+    display: block;
+    position: relative;
+    font-weight: 700;
+    z-index: 1;
+}
+
+
+li.about-desc:nth-child(2n) {
+    color: rgba(122, 202, 199, 0.88);
+}
+
+li#line1{
+    font-size: 60px;
+}
+li#line2 {
+    font-size: 69px;
+}
+li#line3 {
+    font-size: 50.5px;
+}
+li#line4 {
+    font-size: 56px;
+}
+li#line5 {
+    font-size: 61px;
+}
+li#line6 {
+    font-size: 58px;
+}
+li#line7 {
+    font-size: 65.5px;
+}
+li#line8 {
+    font-size: 63px;
+}
+li#line9{
+    font-size: 69px;
+}
+li#line10, li#games {
+    font-size:33.4px;
+    display: inline;
+}
+li#games{
+  color:#41b4af;
+}
+li#line11 {
+    font-size: 53px;
+}
+li#line12 {
+    font-size: 54px;
+}
+li#line13 {
+    font-size: 80px
+}
+.hov{
+  position: relative;
+  z-index: 2;
+}
+
+
+
+@media screen and (min-width: 770px){
+
+
+  li.about-desc{
+      font-size: 53px !important;
+      zoom: 2;ol-md-3
+      letter-spacing: -5px !important;
+      line-height: .6;
+      display: block;
+  }
+
+  li#line10, li#games{
+    display: block;
+  }
+
+  .ase:hover li{
+    color: #f27461 !important;
+    z-index: 2;
+  }
+
+  li#games{
+    color:#7acac7;
+  }
+  li.about-desc:hover{
+    color: #f27461 !important;
+    z-index: 2;
+  }
+}

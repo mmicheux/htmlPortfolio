@@ -1,0 +1,65 @@
+@import url('css/home.css');
+@import url('css/work.css');
+@import url('css/about.css');
+@import url('css/contact.css');
+
+
+
+
+
+
+/*********** Global Styles *************/
+
+html{
+  cursor: url(img/crosshair.png), auto;
+}
+:hover,
+:active,
+:focus{
+  cursor: url(img/crosshair.png), auto;
+}
+
+.container{
+  width: 80%;
+  max-width: 60em;
+  margin-top: 10%;
+}
+
+
+
+
+/*********Home Button**********/
+
+a.header-btn {
+    border: 1.5px solid #bdcfca;
+    color: #bdcfca;
+    padding: 5px;
+    position: absolute;
+    top: 4em;
+    left: 2em;
+    font-size: 9px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px){
+  a.header-btn{
+    left:4em;
+    font-size: 10px;
+
+  }
+
+  a.header-btn:hover,
+  a.header-btn:focus,
+  a.header-btn:active {
+      border: 0;
+      outline: 2px solid #bdcfca;
+      border-radius: 2px;
+      padding: 7px;
+  }
+}
+
+
+
+
