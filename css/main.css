@@ -197,6 +197,8 @@ body .container.about .row.main {
         color: #f27461 !important;
         z-index: 2; }
 
+body .container.contact .row.main a.header-btn.work {
+  background: red; }
 body .container.contact .row.main .contact-box {
   margin: auto;
   position: relative; }
