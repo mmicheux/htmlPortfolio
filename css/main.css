@@ -115,8 +115,6 @@ body .container.work .row {
             color: #283747;
             text-transform: uppercase; }
 
-body .container.about .row.header {
-  background: red; }
 body .container.about .row.main {
   border-bottom-color: #f27461 !important; }
   body .container.about .row.main .about-box {
