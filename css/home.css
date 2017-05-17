@@ -73,10 +73,11 @@
 
 .footer p {
     color: #bdcfca;
-    font-size: 7px;
+    font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 6px;
     opacity: .4;
+    padding-top: 10px;
 }
 
 a:-webkit-any-link {

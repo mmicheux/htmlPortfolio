@@ -1,0 +1,138 @@
+// about scss
+
+body {
+	.container{
+		&.about {
+			.row{
+				&.header{
+
+				}
+				&.main{
+					border-bottom-color: #f27461 !important;
+
+					a.header-btn{
+
+					}
+
+					.about-box{
+						p.about-title{
+
+						}
+
+						ul.about-text{
+
+							li{
+								
+								text-align: left !important;
+								margin: 0 !important;
+								padding: 0;
+								line-height: .7;
+								letter-spacing: -5px;
+								color:  rgba(65, 180, 175, 0.88);
+								display: block;
+								position: relative;
+								font-weight: 700;
+								z-index: 1;
+								zoom:1;
+
+								@media screen and (min-width: 770px){
+									zoom: 2;
+									line-height: .6;
+								}
+
+								
+								
+
+								&#line1{
+									font-size: 60px;
+								}
+								&#line2 {
+									font-size: 69px;
+								}
+								&#line3 {
+									font-size: 50.5px;
+								}
+								&#line4 {
+									font-size: 56px;
+								}
+								&#line5 {
+									font-size: 53px;
+								}
+								&#line6 {
+									font-size: 58px;
+								}
+								&#line7 {
+									font-size: 65.5px;
+								}
+								&#line8 {
+									font-size: 63px;
+								}
+								&#line9{
+									font-size: 69px;
+								}
+								&#line10{
+									font-size: 48px;
+									display: inline;
+									@media screen and (min-width: 770px){
+										display:block;
+									}
+								} 
+								&#games {
+									font-size:60px;
+									display: inline;
+									line-height: .5;
+									@media screen and (min-width: 770px){
+										display:block;
+										line-height: .6;
+									}
+								}
+								&#line11 {
+									font-size: 53px;
+								}
+								&#line12 {
+									font-size: 54px;
+								}
+								&#line13 {
+									font-size: 80px
+								}
+
+								&:hover{
+									color: #f27461;
+									z-index: 2;
+								}
+								&:nth-child(2n){
+									color: rgba(122, 202, 199, 0.88);
+									&:hover {
+										color: #f27461;
+									}
+								}
+
+								
+							}
+
+							.ase{
+
+								&:hover li{
+									color: #f27461 !important;
+									z-index: 2;
+								}
+								
+							}
+							
+						}
+
+
+					}
+
+				}
+				&.text-center{
+					.footer{
+						p{
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,9 +1,60 @@
-@import 'test';
+// @import 'test';
+@import 'work';
+@import 'about';
+@import 'contact';
+@import 'home';
 
 
-.one {
-	background-color: green;
-	p {
-		color:red;
+
+//        Global Styles
+
+html{	
+	cursor: url(img/crosshair.png), auto;
+
+	&:hover, 
+	&:active,
+	&:focus {
+		cursor: url(img/crosshair.png), auto;
+
 	}
+
+	.container{
+		width: 80%;
+		max-width: 60em;
+		margin-top: 10%;
+	}
+
+	.row{
+		&.main {
+			a.header-btn{
+				border: 1.5px solid #bdcfca;
+				color: #bdcfca;
+				padding: 5px;
+				position: absolute;
+				top: 4em;
+				left: 2em;
+				font-size: 9px;
+				letter-spacing: 2px;
+				border-radius: 2px;
+				text-transform: uppercase;
+
+				&:hover, 
+				&:active,
+				&:focus {
+					border: 0;
+				    outline: 2px solid #bdcfca;
+				    border-radius: 2px;
+				    padding: 7px;
+				}
+				
+				@media screen and (min-width: 768px){
+				    left:4em;
+				    font-size: 10px;
+
+				}
+
+			}
+		}
+	}
+
 }
