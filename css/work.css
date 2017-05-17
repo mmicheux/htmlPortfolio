@@ -1,5 +1,9 @@
 /*********Work Page*********/
 
+.future{
+  display: none;
+}
+
 .work .row {
     padding-bottom: 0;
     margin-bottom: -10px;
