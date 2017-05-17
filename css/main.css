@@ -84,8 +84,7 @@ body .container.work .row {
   body .container.work .row.main .row.work-desc {
     margin: auto; }
     body .container.work .row.main .row.work-desc p {
-      margin-top: 3em;
-      margin-bottom: 5.5em;
+      margin: 3em auto 5.5em;
       text-align: center;
       font-size: 12px;
       letter-spacing: 10px;
@@ -118,70 +117,140 @@ body .container.work .row {
 
 body .container.about .row.main {
   border-bottom-color: #f27461 !important; }
-  body .container.about .row.main .about-box ul.about-text li {
-    text-align: left !important;
-    margin: 0 !important;
-    padding: 0;
-    line-height: .7;
-    letter-spacing: -5px;
-    color: rgba(65, 180, 175, 0.88);
-    display: block;
-    position: relative;
-    font-weight: 700;
-    z-index: 1;
-    zoom: 1; }
+  body .container.about .row.main .about-box {
+    margin: auto;
+    position: relative; }
     @media screen and (min-width: 770px) {
+      body .container.about .row.main .about-box {
+        width: 45em; } }
+    body .container.about .row.main .about-box p.about-title {
+      margin: 3em auto;
+      text-align: center;
+      color: #c9d1d3;
+      font-size: 12px;
+      letter-spacing: 10px; }
+    body .container.about .row.main .about-box ul.about-text {
+      margin-bottom: 5em;
+      padding: 0; }
       body .container.about .row.main .about-box ul.about-text li {
-        zoom: 2;
-        line-height: .6; } }
-    body .container.about .row.main .about-box ul.about-text li#line1 {
-      font-size: 60px; }
-    body .container.about .row.main .about-box ul.about-text li#line2 {
-      font-size: 69px; }
-    body .container.about .row.main .about-box ul.about-text li#line3 {
-      font-size: 50.5px; }
-    body .container.about .row.main .about-box ul.about-text li#line4 {
-      font-size: 56px; }
-    body .container.about .row.main .about-box ul.about-text li#line5 {
-      font-size: 53px; }
-    body .container.about .row.main .about-box ul.about-text li#line6 {
-      font-size: 58px; }
-    body .container.about .row.main .about-box ul.about-text li#line7 {
-      font-size: 65.5px; }
-    body .container.about .row.main .about-box ul.about-text li#line8 {
-      font-size: 63px; }
-    body .container.about .row.main .about-box ul.about-text li#line9 {
-      font-size: 69px; }
-    body .container.about .row.main .about-box ul.about-text li#line10 {
-      font-size: 48px;
-      display: inline; }
-      @media screen and (min-width: 770px) {
+        text-align: left !important;
+        margin: 0 !important;
+        padding: 0;
+        line-height: .7;
+        letter-spacing: -5px;
+        color: rgba(65, 180, 175, 0.88);
+        display: block;
+        position: relative;
+        font-weight: 700;
+        z-index: 1;
+        zoom: 1; }
+        @media screen and (min-width: 770px) {
+          body .container.about .row.main .about-box ul.about-text li {
+            zoom: 2;
+            line-height: .6; } }
+        body .container.about .row.main .about-box ul.about-text li#line1 {
+          font-size: 60px; }
+        body .container.about .row.main .about-box ul.about-text li#line2 {
+          font-size: 69px; }
+        body .container.about .row.main .about-box ul.about-text li#line3 {
+          font-size: 50.5px; }
+        body .container.about .row.main .about-box ul.about-text li#line4 {
+          font-size: 56px; }
+        body .container.about .row.main .about-box ul.about-text li#line5 {
+          font-size: 53px; }
+        body .container.about .row.main .about-box ul.about-text li#line6 {
+          font-size: 58px; }
+        body .container.about .row.main .about-box ul.about-text li#line7 {
+          font-size: 65.5px; }
+        body .container.about .row.main .about-box ul.about-text li#line8 {
+          font-size: 63px; }
+        body .container.about .row.main .about-box ul.about-text li#line9 {
+          font-size: 69px; }
         body .container.about .row.main .about-box ul.about-text li#line10 {
-          display: block; } }
-    body .container.about .row.main .about-box ul.about-text li#games {
-      font-size: 60px;
-      display: inline;
-      line-height: .5; }
-      @media screen and (min-width: 770px) {
+          font-size: 48px;
+          display: inline; }
+          @media screen and (min-width: 770px) {
+            body .container.about .row.main .about-box ul.about-text li#line10 {
+              display: block; } }
         body .container.about .row.main .about-box ul.about-text li#games {
-          display: block;
+          font-size: 60px;
+          display: inline;
+          line-height: .5; }
+          @media screen and (min-width: 770px) {
+            body .container.about .row.main .about-box ul.about-text li#games {
+              display: block;
+              line-height: .6; } }
+        body .container.about .row.main .about-box ul.about-text li#line11 {
+          font-size: 53px; }
+        body .container.about .row.main .about-box ul.about-text li#line12 {
+          font-size: 54px; }
+        body .container.about .row.main .about-box ul.about-text li#line13 {
+          font-size: 80px; }
+        body .container.about .row.main .about-box ul.about-text li:hover {
+          color: #f27461;
+          z-index: 2; }
+        body .container.about .row.main .about-box ul.about-text li:nth-child(2n) {
+          color: rgba(122, 202, 199, 0.88); }
+          body .container.about .row.main .about-box ul.about-text li:nth-child(2n):hover {
+            color: #f27461; }
+      body .container.about .row.main .about-box ul.about-text .ase:hover li {
+        color: #f27461 !important;
+        z-index: 2; }
+
+body .container.contact .row.main .contact-box {
+  margin: auto;
+  position: relative; }
+  @media screen and (min-width: 770px) {
+    body .container.contact .row.main .contact-box {
+      width: 45em; } }
+  body .container.contact .row.main .contact-box p {
+    margin: 3em auto;
+    text-align: center;
+    color: #c9d1d3;
+    font-size: 12px;
+    letter-spacing: 10px; }
+  body .container.contact .row.main .contact-box .contact-buttons {
+    margin-bottom: 5em;
+    padding: 0; }
+    body .container.contact .row.main .contact-box .contact-buttons a.contact {
+      color: rgba(242, 116, 97, 0.88);
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: .7;
+      letter-spacing: -5px;
+      z-index: 111;
+      position: relative;
+      display: block; }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact {
+          zoom: 2.5;
+          font-size: 50px;
+          line-height: .58; } }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact {
           line-height: .6; } }
-    body .container.about .row.main .about-box ul.about-text li#line11 {
-      font-size: 53px; }
-    body .container.about .row.main .about-box ul.about-text li#line12 {
-      font-size: 54px; }
-    body .container.about .row.main .about-box ul.about-text li#line13 {
-      font-size: 80px; }
-    body .container.about .row.main .about-box ul.about-text li:hover {
-      color: #f27461;
-      z-index: 2; }
-    body .container.about .row.main .about-box ul.about-text li:nth-child(2n) {
-      color: rgba(122, 202, 199, 0.88); }
-      body .container.about .row.main .about-box ul.about-text li:nth-child(2n):hover {
-        color: #f27461; }
-  body .container.about .row.main .about-box ul.about-text .ase:hover li {
-    color: #f27461 !important;
-    z-index: 2; }
+      body .container.contact .row.main .contact-box .contact-buttons a.contact:nth-child(2n+2) {
+        color: rgba(245, 157, 144, 0.88); }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.email:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.email:active {
+          color: #41b4af;
+          z-index: 222 !important; } }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:active {
+          color: #41b4af;
+          z-index: 222 !important; } }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:active {
+          color: #41b4af;
+          z-index: 222 !important; } }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:active {
+          color: #41b4af;
+          z-index: 222 !important; } }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.github:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.github:active {
+          color: #41b4af;
+          z-index: 222 !important; } }
 
 html {
   cursor: url(img/crosshair.png), auto; }

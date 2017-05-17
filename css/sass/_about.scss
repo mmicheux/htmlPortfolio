@@ -15,11 +15,23 @@ body {
 					}
 
 					.about-box{
-						p.about-title{
+						margin:auto;
+						position:relative;
 
+						@media screen and (min-width: 770px){
+							width: 45em;
+						}
+						p.about-title{
+							margin: 3em auto;
+						    text-align: center;
+						    color: #c9d1d3;
+						    font-size: 12px;
+						    letter-spacing: 10px;
 						}
 
 						ul.about-text{
+							margin-bottom:5em;
+							padding: 0;
 
 							li{
 								

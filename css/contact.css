@@ -1,14 +1,14 @@
 
 /*******Contact Page**********/
 
-.contact-box,
+/*.contact-box,
 .about-box{
   width: 20em;
   margin:auto;
   position:relative;
 }
-
-.contact-box p,
+*/
+/*.contact-box p,
 p.about-title,
 .work-desc p{
     margin: 3em auto;
@@ -16,29 +16,20 @@ p.about-title,
     color: #c9d1d3;
     font-size: 12px;
     letter-spacing: 5px;
-}
+}*/
 
-.contact-buttons,
+/*.contact-buttons,
 ul.about-text{
   margin-bottom:5em;
   padding: 0;
-}
+}*/
 
-.contact-box a.contact {
-    color: rgba(242,116,97,.88);
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: .7;
-    letter-spacing: -5px;
-    z-index: 111;
-    position: relative;
-    display: block;
-}
+/*r*/
 
-.contact-box a.contact:nth-child(2n+2) {
+/*.contact-box a.contact:nth-child(2n+2) {
     color: rgba(245,157,144,.88);
 }
-
+*/
 a.contact.email {
     font-size: 90px;
 }
@@ -79,7 +70,8 @@ a.contact.github {
     }
 
 
-  a.contact.email:hover,
+
+/*  a.contact.email:hover,
   a.contact.email:active,
   a.contact.linkedin:hover,
   a.contact.linkedin:active,
@@ -91,10 +83,10 @@ a.contact.github {
   a.contact.github:active {
       color: #41b4af;
       z-index: 222 !important;
-  }
-  .contact-box a.contact {
+  }*/
+  /*.contact-box a.contact {
     zoom:2.5;
     font-size: 50px;
     line-height: .58;
-  }
+  }*/
 }
