@@ -7,7 +7,7 @@ body{
 				&.main{
 					a.header-btn{
 						&.work{
-							background:red;
+							
 						}
 
 					}
@@ -26,10 +26,23 @@ body{
 						    color: #c9d1d3;
 						    font-size: 12px;
 						    letter-spacing: 10px;
+
+						    @media screen and(min-width:770px){
+						    	margin-top: 3em;
+							    margin-bottom: 5.5em;
+							    text-align: center;
+							    font-size: 12px;
+							    letter-spacing: 10px;
+						    }
 						}
 						.contact-buttons{
 							margin-bottom:5em;
 							padding: 0;
+							text-align: center;
+
+							@media screen and (min-width:770px){
+								text-align: left;
+							}
 
 							a.contact{
 								color: rgba(242,116,97,.88);
@@ -40,14 +53,11 @@ body{
 							    z-index: 111;
 							    position: relative;
 							    display: block;
+							    font-size: 50px;
 
 							    @media screen and (min-width: 770px){
 							    	zoom:2.5;
 								    font-size: 50px;
-								    line-height: .58;
-							    }
-
-							    @media screen and (min-width:770px){
 							    	line-height: .6;
 							    }
 
@@ -56,7 +66,10 @@ body{
 								}
 
 								&.email{
+									font-size:90px;
 									@media screen and (min-width: 770px){
+										
+
 										&:hover,
 										&:active{
 											color: #41b4af;
@@ -67,7 +80,10 @@ body{
 								}
 
 								&.linkedin{
+									font-size: 63px;
 									@media screen and (min-width: 770px){
+										
+
 										&:hover,
 										&:active{
 											color: #41b4af;
@@ -77,7 +93,10 @@ body{
 								}
 
 								&.instagram{
+									font-size: 50px;
 									@media screen and (min-width: 770px){
+										
+
 										&:hover,
 										&:active{
 											color: #41b4af;
@@ -87,7 +106,10 @@ body{
 								}
 
 								&.ywot{
+									font-size: 91px;
 									@media screen and (min-width: 770px){
+										
+
 										&:hover,
 										&:active{
 											color: #41b4af;
@@ -97,7 +119,10 @@ body{
 								}
 
 								&.github{
+									font-size: 74px;
 									@media screen and (min-width: 770px){
+										
+
 										&:hover,
 										&:active{
 											color: #41b4af;
@@ -106,6 +131,7 @@ body{
 									}
 								}
 							}
+							
 						}
 					}
 				}

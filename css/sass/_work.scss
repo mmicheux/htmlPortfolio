@@ -151,6 +151,14 @@ body{
 								font-size: 12px;
 								letter-spacing: 10px;
 								color: #c9d1d3;
+
+								@media screen and(min-width:770px){
+							    	margin-top: 3em;
+								    margin-bottom: 5.5em;
+								    text-align: center;
+								    font-size: 12px;
+								    letter-spacing: 10px;
+							    }
 							}
 
 						}

@@ -30,7 +30,7 @@ ul.about-text{
     color: rgba(245,157,144,.88);
 }
 */
-a.contact.email {
+/*a.contact.email {
     font-size: 90px;
 }
 a.contact.linkedin {
@@ -44,22 +44,17 @@ a.contact.ywot {
 }
 a.contact.github {
     font-size: 74px;
-}
+}*/
 
 
-@media screen  and (max-width:750px) and (orientation:landscape){
+/*@media screen  and (max-width:750px) and (orientation:landscape){
   .contact-box p,
   .about-box p {
     margin-top: 6%;
   }
-}
+}*/
 
-@media screen and (min-width: 770px){
-  .contact-box,
-  .about-box {
-    width: 50em;
-  }
-  .contact-box p,
+/*  .contact-box p,
   p.about-title,
   .work-desc p {
     margin-top: 3em;
@@ -67,7 +62,7 @@ a.contact.github {
     text-align: center;
     font-size: 12px;
     letter-spacing: 10px;
-    }
+    }*/
 
 
 
