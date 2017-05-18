@@ -8,6 +8,7 @@ body {
 				}
 				&.main{
 					border-bottom-color: #f27461 !important;
+					border-top:0;
 
 					a.header-btn{
 
@@ -147,6 +148,12 @@ body {
 				&.text-center{
 					.footer{
 						p{
+							color: #bdcfca;
+							font-size: 9px;
+							text-transform: uppercase;
+							letter-spacing: 6px;
+							opacity: .4;
+							padding-top: 10px;
 
 						}
 					}

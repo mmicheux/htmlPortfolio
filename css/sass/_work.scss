@@ -125,16 +125,16 @@ body{
 
 	.container {
 		&.work{
-
+			
 			.row{
 				padding-bottom: 0;
 	    		margin-bottom: -10px;
 
 				&.header{
-
 				}
 
 				&.main {
+					border-top:0;
 					a{
 
 					}
@@ -174,17 +174,28 @@ body{
 							.work-box{
 								cursor: hand;
 								text-align: center;
+
+								&.future{ //display none for future boxes
+									display: none;
+								}
+
 								.work-thumbnail{
+
 									display: inline-block;
 									text-align: right;
-									max-width: 100%;
-									.work-overlay{
+									// min-width: 100%;
+									// min-height: 300px;
+									background-color: #fff;
 
-										img {
-											background-color: #fff;
-			  								padding: 46px 0;
-										}
+									.work-overlay{
+										background-image: url('../../img/wordpress.png');
 									}
+								
+									img {
+										
+		  								// padding: 46px 0;
+									}
+									
 									.work-title {
 										position: relative;
 			  							bottom: 285px;
@@ -202,15 +213,23 @@ body{
 						}
 					}
 				}
-				&.text-center{
+
+				&.text-center {
+					
 					.footer {
+						
 						p{
+							color: #bdcfca;
+							font-size: 9px;
+							text-transform: uppercase;
+							letter-spacing: 6px;
+							opacity: .4;
+							padding-top: 10px;
 
 						}
 					}
 				}
 			}
 		}
-
 	}
 }

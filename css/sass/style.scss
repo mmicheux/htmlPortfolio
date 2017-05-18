@@ -25,7 +25,12 @@ html{
 	}
 
 	.row{
+		height:100%;
 		&.main {
+			border-top: 1px solid rgba(65,180,175,.5);
+			padding: 3em 0;
+			border-bottom: 1px solid rgba(65,180,175,.5);
+			min-height: 23em;
 			a.header-btn{
 				border: 1.5px solid #bdcfca;
 				color: #bdcfca;

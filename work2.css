@@ -1,0 +1,43 @@
+/*work2.css*/
+
+
+body{
+	background-color: gray;
+}
+
+.container {
+	max-width: 80em;
+	margin: auto;
+}
+
+.work-image{
+	background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.work-box {
+	max-width: 100%;
+	display: inline-block;
+}
+
+h1{
+	top:69px;
+	right: 8px;
+	font-size: 67px;
+	font-weight: 700;
+	letter-spacing: -9.5px;
+	color:  #283747;
+	text-transform: uppercase;
+}
+
+.description{
+	display: none;
+}
+
+.inner-img{
+	display: none;
+}

@@ -78,52 +78,63 @@ body .all-modals .modal.fade.work-box .modal-dialog {
 body .container.work .row {
   padding-bottom: 0;
   margin-bottom: -10px; }
-  @media screen and (min-width: 768px) {
-    body .container.work .row.main .row {
-      text-align: center; } }
-  body .container.work .row.main .row.work-desc {
-    margin: auto; }
-    body .container.work .row.main .row.work-desc p {
-      margin: 3em auto 5.5em;
-      text-align: center;
-      font-size: 12px;
-      letter-spacing: 10px;
-      color: #c9d1d3; }
-      @media screen and (min-width: 770px) {
-        body .container.work .row.main .row.work-desc p {
-          margin-top: 3em;
-          margin-bottom: 5.5em;
-          text-align: center;
-          font-size: 12px;
-          letter-spacing: 10px; } }
-  body .container.work .row.main .row .col-md-4 {
-    max-width: 300px !important;
-    margin: 0 auto; }
+  body .container.work .row.main {
+    border-top: 0; }
     @media screen and (min-width: 768px) {
-      body .container.work .row.main .row .col-md-4 {
-        display: inline-block; } }
-    body .container.work .row.main .row .col-md-4 .work-box {
-      cursor: hand;
-      text-align: center; }
-      body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail {
-        display: inline-block;
-        text-align: right;
-        max-width: 100%; }
-        body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-overlay img {
-          background-color: #fff;
-          padding: 46px 0; }
-        body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title {
-          position: relative;
-          bottom: 285px; }
-          body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title p {
-            font-size: 67px;
-            font-weight: 700;
-            letter-spacing: -9.5px;
-            color: #283747;
-            text-transform: uppercase; }
+      body .container.work .row.main .row {
+        text-align: center; } }
+    body .container.work .row.main .row.work-desc {
+      margin: auto; }
+      body .container.work .row.main .row.work-desc p {
+        margin: 3em auto 5.5em;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 10px;
+        color: #c9d1d3; }
+        @media screen and (min-width: 770px) {
+          body .container.work .row.main .row.work-desc p {
+            margin-top: 3em;
+            margin-bottom: 5.5em;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 10px; } }
+    body .container.work .row.main .row .col-md-4 {
+      max-width: 300px !important;
+      margin: 0 auto; }
+      @media screen and (min-width: 768px) {
+        body .container.work .row.main .row .col-md-4 {
+          display: inline-block; } }
+      body .container.work .row.main .row .col-md-4 .work-box {
+        cursor: hand;
+        text-align: center; }
+        body .container.work .row.main .row .col-md-4 .work-box.future {
+          display: none; }
+        body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail {
+          display: inline-block;
+          text-align: right;
+          background-color: #fff; }
+          body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-overlay {
+            background-image: url("../../img/wordpress.png"); }
+          body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title {
+            position: relative;
+            bottom: 285px; }
+            body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title p {
+              font-size: 67px;
+              font-weight: 700;
+              letter-spacing: -9.5px;
+              color: #283747;
+              text-transform: uppercase; }
+  body .container.work .row.text-center .footer p {
+    color: #bdcfca;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    opacity: .4;
+    padding-top: 10px; }
 
 body .container.about .row.main {
-  border-bottom-color: #f27461 !important; }
+  border-bottom-color: #f27461 !important;
+  border-top: 0; }
   body .container.about .row.main .about-box {
     margin: auto;
     position: relative; }
@@ -210,80 +221,163 @@ body .container.about .row.main {
       body .container.about .row.main .about-box ul.about-text .ase:hover li {
         color: #f27461 !important;
         z-index: 2; }
+body .container.about .row.text-center .footer p {
+  color: #bdcfca;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  opacity: .4;
+  padding-top: 10px; }
 
-body .container.contact .row.main .contact-box {
-  margin: auto;
-  position: relative; }
-  @media screen and (min-width: 770px) {
-    body .container.contact .row.main .contact-box {
-      width: 45em; } }
-  body .container.contact .row.main .contact-box p {
-    margin: 3em auto;
-    text-align: center;
-    color: #c9d1d3;
-    font-size: 12px;
-    letter-spacing: 10px; }
+body .container.contact .row.main {
+  border-top: 0; }
+  body .container.contact .row.main .contact-box {
+    margin: auto;
+    position: relative; }
     @media screen and (min-width: 770px) {
-      body .container.contact .row.main .contact-box p {
-        margin-top: 3em;
-        margin-bottom: 5.5em;
-        text-align: center;
-        font-size: 12px;
-        letter-spacing: 10px; } }
-  body .container.contact .row.main .contact-box .contact-buttons {
-    margin-bottom: 5em;
-    padding: 0;
-    text-align: center; }
-    @media screen and (min-width: 770px) {
-      body .container.contact .row.main .contact-box .contact-buttons {
-        text-align: left; } }
-    body .container.contact .row.main .contact-box .contact-buttons a.contact {
-      color: rgba(242, 116, 97, 0.88);
-      font-weight: 700;
-      text-transform: uppercase;
-      line-height: .7;
-      letter-spacing: -5px;
-      z-index: 111;
-      position: relative;
-      display: block;
-      font-size: 50px; }
+      body .container.contact .row.main .contact-box {
+        width: 45em; } }
+    body .container.contact .row.main .contact-box p {
+      margin: 3em auto;
+      text-align: center;
+      color: #c9d1d3;
+      font-size: 12px;
+      letter-spacing: 10px; }
       @media screen and (min-width: 770px) {
-        body .container.contact .row.main .contact-box .contact-buttons a.contact {
-          zoom: 2.5;
-          font-size: 50px;
-          line-height: .6; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact:nth-child(2n+2) {
-        color: rgba(245, 157, 144, 0.88); }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact.email {
-        font-size: 90px; }
-        @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact.email:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.email:active {
-            color: #41b4af;
-            z-index: 222 !important; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin {
-        font-size: 63px; }
-        @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:active {
-            color: #41b4af;
-            z-index: 222 !important; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram {
+        body .container.contact .row.main .contact-box p {
+          margin-top: 3em;
+          margin-bottom: 5.5em;
+          text-align: center;
+          font-size: 12px;
+          letter-spacing: 10px; } }
+    body .container.contact .row.main .contact-box .contact-buttons {
+      margin-bottom: 5em;
+      padding: 0;
+      text-align: center; }
+      @media screen and (min-width: 770px) {
+        body .container.contact .row.main .contact-box .contact-buttons {
+          text-align: left; } }
+      body .container.contact .row.main .contact-box .contact-buttons a.contact {
+        color: rgba(242, 116, 97, 0.88);
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: .7;
+        letter-spacing: -5px;
+        z-index: 111;
+        position: relative;
+        display: block;
         font-size: 50px; }
         @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:active {
-            color: #41b4af;
-            z-index: 222 !important; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot {
-        font-size: 91px; }
-        @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:active {
-            color: #41b4af;
-            z-index: 222 !important; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact.github {
-        font-size: 74px; }
-        @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact.github:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.github:active {
-            color: #41b4af;
-            z-index: 222 !important; } }
+          body .container.contact .row.main .contact-box .contact-buttons a.contact {
+            zoom: 2.5;
+            font-size: 50px;
+            line-height: .6; } }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact:nth-child(2n+2) {
+          color: rgba(245, 157, 144, 0.88); }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.email {
+          font-size: 90px; }
+          @media screen and (min-width: 770px) {
+            body .container.contact .row.main .contact-box .contact-buttons a.contact.email:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.email:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin {
+          font-size: 63px; }
+          @media screen and (min-width: 770px) {
+            body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram {
+          font-size: 50px; }
+          @media screen and (min-width: 770px) {
+            body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot {
+          font-size: 91px; }
+          @media screen and (min-width: 770px) {
+            body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
+        body .container.contact .row.main .contact-box .contact-buttons a.contact.github {
+          font-size: 74px; }
+          @media screen and (min-width: 770px) {
+            body .container.contact .row.main .contact-box .contact-buttons a.contact.github:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.github:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
+body .container.contact .row.text-center .footer p {
+  color: #bdcfca;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  opacity: .4;
+  padding-top: 10px; }
+
+@media (min-width: 770px) {
+  body .container {
+    margin-top: 4%; } }
+body .container.home .row .header h1.text-center {
+  text-transform: uppercase;
+  letter-spacing: -14px;
+  font-size: 5em;
+  line-height: .7;
+  color: rgba(201, 209, 211, 0.88); }
+  @media (min-width: 770px) {
+    body .container.home .row .header h1.text-center {
+      letter-spacing: -17px;
+      font-size: 6em;
+      line-height: 54px; } }
+body .container.home .row .header p {
+  color: #f27461;
+  font-size: .7em;
+  letter-spacing: 22px;
+  margin: 37px 0 15px;
+  text-align: center;
+  position: relative;
+  left: 13px; }
+  @media (min-width: 770px) {
+    body .container.home .row .header p {
+      font-size: .8em;
+      font-weight: bold;
+      left: 15px; } }
+body .container.home .row .main {
+  border-top: 1px solid rgba(65, 180, 175, 0.5);
+  padding: 3em 0;
+  border-bottom: 1px solid rgba(65, 180, 175, 0.5);
+  min-height: 23em; }
+  body .container.home .row .main .col-md-4 a:-webkit-any-link {
+    text-decoration: none; }
+    body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper {
+      height: 200px;
+      margin: 0 auto 30px;
+      background-color: #dee7e4;
+      text-align: center;
+      max-width: 30em;
+      border-radius: 2px; }
+      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:hover, body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:focus, body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:active {
+        background: #f59d90;
+        transition: background 200ms ease-in-out;
+        -o-transition: background 200ms ease-in-out;
+        -ms-transition: background 200ms ease-in-out;
+        -moz-transition: background 200ms ease-in-out;
+        -webkit-transition: background 200ms ease-in-out; }
+      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper .link-box h1 {
+        position: relative;
+        top: 66px;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: -7px;
+        font-size: 4em;
+        color: #bdcfca; }
+      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper .link-box#link-contact h1 {
+        top: 65px !important;
+        line-height: 32px; }
+body .container.home .row.text-center .footer p {
+  color: #bdcfca;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  opacity: .4;
+  padding-top: 10px; }
 
 html {
   cursor: url(img/crosshair.png), auto; }
@@ -293,25 +387,32 @@ html {
     width: 80%;
     max-width: 60em;
     margin-top: 10%; }
-  html .row.main a.header-btn {
-    border: 1.5px solid #bdcfca;
-    color: #bdcfca;
-    padding: 5px;
-    position: absolute;
-    top: 4em;
-    left: 2em;
-    font-size: 9px;
-    letter-spacing: 2px;
-    border-radius: 2px;
-    text-transform: uppercase; }
-    html .row.main a.header-btn:hover, html .row.main a.header-btn:active, html .row.main a.header-btn:focus {
-      border: 0;
-      outline: 2px solid #bdcfca;
-      border-radius: 2px;
-      padding: 7px; }
-    @media screen and (min-width: 768px) {
+  html .row {
+    height: 100%; }
+    html .row.main {
+      border-top: 1px solid rgba(65, 180, 175, 0.5);
+      padding: 3em 0;
+      border-bottom: 1px solid rgba(65, 180, 175, 0.5);
+      min-height: 23em; }
       html .row.main a.header-btn {
-        left: 4em;
-        font-size: 10px; } }
+        border: 1.5px solid #bdcfca;
+        color: #bdcfca;
+        padding: 5px;
+        position: absolute;
+        top: 4em;
+        left: 2em;
+        font-size: 9px;
+        letter-spacing: 2px;
+        border-radius: 2px;
+        text-transform: uppercase; }
+        html .row.main a.header-btn:hover, html .row.main a.header-btn:active, html .row.main a.header-btn:focus {
+          border: 0;
+          outline: 2px solid #bdcfca;
+          border-radius: 2px;
+          padding: 7px; }
+        @media screen and (min-width: 768px) {
+          html .row.main a.header-btn {
+            left: 4em;
+            font-size: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
