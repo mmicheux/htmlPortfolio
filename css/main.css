@@ -1,21 +1,21 @@
-body .all-modals .modal.fade .modal-dialog {
+.all-modals .modal.fade .modal-dialog {
   position: relative;
   width: auto;
   margin: 20vh auto 0;
   max-width: 700px; }
   @media screen and (min-width: 768px) {
-    body .all-modals .modal.fade .modal-dialog {
+    .all-modals .modal.fade .modal-dialog {
       margin: 10vh auto 0; } }
-  body .all-modals .modal.fade .modal-dialog .modal-content {
+  .all-modals .modal.fade .modal-dialog .modal-content {
     background-color: #f4f5f6;
     border-radius: 4px;
     max-width: 90%;
     margin: auto; }
-    body .all-modals .modal.fade .modal-dialog .modal-content .modal-header {
+    .all-modals .modal.fade .modal-dialog .modal-content .modal-header {
       border: 0;
       padding: 15px 15px 0;
       margin-top: 20px; }
-      body .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
+      .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
         color: #41b4af;
         text-transform: lowercase;
         font-weight: 700;
@@ -25,41 +25,41 @@ body .all-modals .modal.fade .modal-dialog {
         text-align: right;
         padding-right: 10%; }
         @media screen and (min-width: 768px) {
-          body .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
+          .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
             padding-bottom: 15px; } }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body {
+      .all-modals .modal.fade .modal-dialog .modal-content .modal-body {
         display: inline-flex; } }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 {
+      .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 {
         width: 66.66666667%;
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px; } }
-    body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 img {
+    .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 img {
       margin: 0 auto; }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 {
+      .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 {
         width: 33.33333333%;
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px; } }
-    body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 p.description {
+    .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 p.description {
       font-size: 11px;
       line-height: 1.5;
       text-transform: uppercase;
       text-align: left;
       max-width: 408px;
       margin: 20px auto; }
-    body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer {
+    .all-modals .modal.fade .modal-dialog .modal-content .modal-footer {
       border-top: none;
       padding: 0 15px 15px; }
       @media screen and (min-width: 768px) {
-        body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns {
+        .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns {
           margin-right: 10px; } }
-      body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
+      .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
         background-color: #f4f5f6;
         border: 1px solid #f27461;
         font-size: 11px;
@@ -71,55 +71,34 @@ body .all-modals .modal.fade .modal-dialog {
         padding: 13px;
         border-radius: 2px; }
         @media screen and (min-width: 768px) {
-          body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
+          .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
             padding: 5px; } }
-body .container.work .row.header {
-  margin: auto; }
-  body .container.work .row.header a.header-btn {
-    border: 1.5px solid #bdcfca;
-    color: #bdcfca;
-    padding: 5px;
-    position: absolute;
-    top: 4em;
-    left: 2em;
-    font-size: 9px;
-    letter-spacing: 2px;
-    border-radius: 2px;
-    text-transform: uppercase; }
-  body .container.work .row.header p {
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 10px;
-    color: #c9d1d3; }
-    @media screen and (min-width: 770px) {
-      body .container.work .row.header p {
-        text-align: center;
-        font-size: 12px;
-        letter-spacing: 10px; } }
-body .container.work .row.main {
-  border-top: 0; }
-  @media screen and (min-width: 768px) {
-    body .container.work .row.main {
-      text-align: center; } }
-  body .container.work .row.main .col-md-4 {
-    max-width: 300px !important;
+
+.main {
+  border-top: 0;
+  text-align: center; }
+  .main.work .col-md-4 {
+    max-width: 400px !important;
     margin: 0 auto;
-    margin: 0 15px; }
+    float: none !important; }
     @media screen and (min-width: 768px) {
-      body .container.work .row.main .col-md-4 {
+      .main.work .col-md-4 {
         display: inline-block; } }
-    body .container.work .row.main .col-md-4 .work-box {
+    .main.work .col-md-4 .work-box {
       max-width: 100%;
-      display: inline-block; }
-      body .container.work .row.main .col-md-4 .work-box h1.work-title {
-        top: 69px;
-        right: -26px;
+      display: inline-block;
+      margin: 25px 0; }
+      .main.work .col-md-4 .work-box p.work-title {
+        top: -24px;
         font-size: 67px;
         font-weight: 700;
         letter-spacing: -9.5px;
         color: #283747;
-        text-transform: uppercase; }
-      body .container.work .row.main .col-md-4 .work-box .work-image {
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        float: right; }
+      .main.work .col-md-4 .work-box .work-image {
         background-color: green;
         background-size: contain;
         background-position: center;
@@ -127,43 +106,21 @@ body .container.work .row.main {
         width: 300px;
         background-repeat: no-repeat;
         background-color: #fff; }
-body .container.work .row.footer {
-  text-align: center;
-  margin: auto; }
-  body .container.work .row.footer p {
-    color: #bdcfca;
-    font-size: 9px;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    opacity: .4;
-    padding-top: 10px; }
 
-body .container.about .row.main {
-  border-bottom-color: #f27461 !important;
-  border-top: 0; }
-  body .container.about .row.main .about-box {
+.main {
+  border-bottom-color: #f27461 !important; }
+  .main.about {
     margin: auto;
+    width: 100%;
     position: relative; }
     @media screen and (min-width: 770px) {
-      body .container.about .row.main .about-box {
-        width: 45em; } }
-    body .container.about .row.main .about-box p.about-title {
-      margin: 3em auto;
-      text-align: center;
-      color: #c9d1d3;
-      font-size: 12px;
-      letter-spacing: 10px; }
-      @media screen and (min-width: 770px) {
-        body .container.about .row.main .about-box p.about-title {
-          margin-top: 3em;
-          margin-bottom: 5.5em;
-          text-align: center;
-          font-size: 12px;
-          letter-spacing: 10px; } }
-    body .container.about .row.main .about-box ul.about-text {
-      margin-bottom: 5em;
+      .main.about {
+        width: 100%; } }
+    .main.about ul.about-text {
+      margin: 0 auto 5em;
+      width: 55em;
       padding: 0; }
-      body .container.about .row.main .about-box ul.about-text li {
+      .main.about ul.about-text li {
         text-align: left !important;
         margin: 0 !important;
         padding: 0;
@@ -176,64 +133,57 @@ body .container.about .row.main {
         z-index: 1;
         zoom: 1; }
         @media screen and (min-width: 770px) {
-          body .container.about .row.main .about-box ul.about-text li {
+          .main.about ul.about-text li {
             zoom: 2;
             line-height: .6; } }
-        body .container.about .row.main .about-box ul.about-text li#line1 {
+        .main.about ul.about-text li#line1 {
           font-size: 60px; }
-        body .container.about .row.main .about-box ul.about-text li#line2 {
+        .main.about ul.about-text li#line2 {
           font-size: 69px; }
-        body .container.about .row.main .about-box ul.about-text li#line3 {
+        .main.about ul.about-text li#line3 {
           font-size: 50.5px; }
-        body .container.about .row.main .about-box ul.about-text li#line4 {
+        .main.about ul.about-text li#line4 {
           font-size: 56px; }
-        body .container.about .row.main .about-box ul.about-text li#line5 {
+        .main.about ul.about-text li#line5 {
           font-size: 53px; }
-        body .container.about .row.main .about-box ul.about-text li#line6 {
+        .main.about ul.about-text li#line6 {
           font-size: 58px; }
-        body .container.about .row.main .about-box ul.about-text li#line7 {
+        .main.about ul.about-text li#line7 {
           font-size: 65.5px; }
-        body .container.about .row.main .about-box ul.about-text li#line8 {
+        .main.about ul.about-text li#line8 {
           font-size: 63px; }
-        body .container.about .row.main .about-box ul.about-text li#line9 {
+        .main.about ul.about-text li#line9 {
           font-size: 69px; }
-        body .container.about .row.main .about-box ul.about-text li#line10 {
+        .main.about ul.about-text li#line10 {
           font-size: 48px;
           display: inline; }
           @media screen and (min-width: 770px) {
-            body .container.about .row.main .about-box ul.about-text li#line10 {
+            .main.about ul.about-text li#line10 {
               display: block; } }
-        body .container.about .row.main .about-box ul.about-text li#games {
-          font-size: 60px;
+        .main.about ul.about-text li#games {
+          font-size: 84px;
           display: inline;
           line-height: .5; }
           @media screen and (min-width: 770px) {
-            body .container.about .row.main .about-box ul.about-text li#games {
+            .main.about ul.about-text li#games {
               display: block;
               line-height: .6; } }
-        body .container.about .row.main .about-box ul.about-text li#line11 {
+        .main.about ul.about-text li#line11 {
           font-size: 53px; }
-        body .container.about .row.main .about-box ul.about-text li#line12 {
+        .main.about ul.about-text li#line12 {
           font-size: 54px; }
-        body .container.about .row.main .about-box ul.about-text li#line13 {
+        .main.about ul.about-text li#line13 {
           font-size: 80px; }
-        body .container.about .row.main .about-box ul.about-text li:hover {
+        .main.about ul.about-text li:hover {
           color: #f27461;
           z-index: 2; }
-        body .container.about .row.main .about-box ul.about-text li:nth-child(2n) {
+        .main.about ul.about-text li:nth-child(2n) {
           color: rgba(122, 202, 199, 0.88); }
-          body .container.about .row.main .about-box ul.about-text li:nth-child(2n):hover {
+          .main.about ul.about-text li:nth-child(2n):hover {
             color: #f27461; }
-      body .container.about .row.main .about-box ul.about-text .ase:hover li {
+      .main.about ul.about-text .ase:hover li {
         color: #f27461 !important;
         z-index: 2; }
-body .container.about .row.text-center .footer p {
-  color: #bdcfca;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  opacity: .4;
-  padding-top: 10px; }
 
 body .container.contact .row.main {
   border-top: 0; }
@@ -318,21 +268,18 @@ body .container.contact .row.text-center .footer p {
   opacity: .4;
   padding-top: 10px; }
 
-@media (min-width: 770px) {
-  body .container {
-    margin-top: 4%; } }
-body .container.home .row .header h1.text-center {
+.header.logo h1.text-center {
   text-transform: uppercase;
   letter-spacing: -14px;
   font-size: 5em;
   line-height: .7;
   color: rgba(201, 209, 211, 0.88); }
   @media (min-width: 770px) {
-    body .container.home .row .header h1.text-center {
+    .header.logo h1.text-center {
       letter-spacing: -17px;
       font-size: 6em;
       line-height: 54px; } }
-body .container.home .row .header p {
+.header.logo p {
   color: #f27461;
   font-size: .7em;
   letter-spacing: 22px;
@@ -341,32 +288,34 @@ body .container.home .row .header p {
   position: relative;
   left: 13px; }
   @media (min-width: 770px) {
-    body .container.home .row .header p {
+    .header.logo p {
       font-size: .8em;
       font-weight: bold;
       left: 15px; } }
-body .container.home .row .main {
+
+.main {
   border-top: 1px solid rgba(65, 180, 175, 0.5);
   padding: 3em 0;
   border-bottom: 1px solid rgba(65, 180, 175, 0.5);
   min-height: 23em; }
-  body .container.home .row .main .col-md-4 a:-webkit-any-link {
-    text-decoration: none; }
-    body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper {
+  .main.home .col-md-4 a:-webkit-any-link {
+    text-decoration: none;
+    background: Red; }
+    .main.home .col-md-4 a:-webkit-any-link .wrapper {
       height: 200px;
       margin: 0 auto 30px;
       background-color: #dee7e4;
       text-align: center;
       max-width: 30em;
       border-radius: 2px; }
-      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:hover, body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:focus, body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper:active {
+      .main.home .col-md-4 a:-webkit-any-link .wrapper:hover, .main.home .col-md-4 a:-webkit-any-link .wrapper:focus, .main.home .col-md-4 a:-webkit-any-link .wrapper:active {
         background: #f59d90;
         transition: background 200ms ease-in-out;
         -o-transition: background 200ms ease-in-out;
         -ms-transition: background 200ms ease-in-out;
         -moz-transition: background 200ms ease-in-out;
         -webkit-transition: background 200ms ease-in-out; }
-      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper .link-box h1 {
+      .main.home .col-md-4 a:-webkit-any-link .wrapper .link-box h1 {
         position: relative;
         top: 66px;
         text-transform: uppercase;
@@ -374,16 +323,9 @@ body .container.home .row .main {
         letter-spacing: -7px;
         font-size: 4em;
         color: #bdcfca; }
-      body .container.home .row .main .col-md-4 a:-webkit-any-link .wrapper .link-box#link-contact h1 {
+      .main.home .col-md-4 a:-webkit-any-link .wrapper .link-box#link-contact h1 {
         top: 65px !important;
         line-height: 32px; }
-body .container.home .row.text-center .footer p {
-  color: #bdcfca;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  opacity: .4;
-  padding-top: 10px; }
 
 body {
   cursor: auto;
@@ -392,30 +334,48 @@ body {
     width: 80%;
     max-width: 80em;
     margin-top: 50px; }
-  body .row.main {
-    border-top: 1px solid rgba(65, 180, 175, 0.5);
-    padding: 0 0 5em 0;
-    border-bottom: 1px solid rgba(65, 180, 175, 0.5);
-    min-height: 23em; }
-    body .row.main a.header-btn {
-      border: 1.5px solid #bdcfca;
-      color: #bdcfca;
-      padding: 5px;
-      position: absolute;
-      top: 4em;
-      left: 2em;
-      font-size: 9px;
-      letter-spacing: 2px;
-      border-radius: 2px;
-      text-transform: uppercase; }
-      body .row.main a.header-btn:hover, body .row.main a.header-btn:active, body .row.main a.header-btn:focus {
-        border: 0;
-        outline: 2px solid #bdcfca;
+    body .container .row.header {
+      margin: 100px auto 45px; }
+      body .container .row.header p {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 10px;
+        color: #c9d1d3; }
+        @media screen and (min-width: 770px) {
+          body .container .row.header p {
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 10px; } }
+      body .container .row.header a.header-btn {
+        border: 1.5px solid #bdcfca;
+        color: #bdcfca;
+        padding: 5px;
+        position: absolute;
+        top: 4em;
+        left: 2em;
+        font-size: 9px;
+        letter-spacing: 2px;
         border-radius: 2px;
-        padding: 7px; }
-      @media screen and (min-width: 768px) {
-        body .row.main a.header-btn {
-          left: 4em;
-          font-size: 10px; } }
+        text-transform: uppercase; }
+        body .container .row.header a.header-btn:hover, body .container .row.header a.header-btn:active, body .container .row.header a.header-btn:focus {
+          border: 0;
+          outline: 2px solid #bdcfca;
+          border-radius: 2px;
+          padding: 7px; }
+    body .container .row.main {
+      border-top: 1px solid rgba(65, 180, 175, 0.5);
+      padding: 0 0 5em 0;
+      border-bottom: 1px solid rgba(65, 180, 175, 0.5); }
+      body .container .row.main.about, body .container .row.main.work, body .container .row.main.contact {
+        border-top: none; }
+    body .container .row.footer .footerCopy {
+      text-align: center; }
+      body .container .row.footer .footerCopy p {
+        color: #bdcfca;
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        opacity: .4;
+        padding-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */

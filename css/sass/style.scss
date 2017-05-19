@@ -12,55 +12,83 @@ body{
 	cursor:auto;
 	cursor: url('/img/crosshair.png');
 
-	&:hover, 
-	&:active,
-	&:focus {
-		// cursor: url('crosshair.png'), auto;
-
-	}
-
 	.container{
 		width: 80%;
 		max-width: 80em;
 		margin-top: 50px;
-	}
 
-	.row{
+		.row{
 
-		&.main {
-			border-top: 1px solid rgba(65,180,175,.5);
-			padding: 0 0 5em 0;
-			border-bottom: 1px solid rgba(65,180,175,.5);
-			min-height: 23em;
-			a.header-btn{
-				border: 1.5px solid #bdcfca;
-				color: #bdcfca;
-				padding: 5px;
-				position: absolute;
-				top: 4em;
-				left: 2em;
-				font-size: 9px;
-				letter-spacing: 2px;
-				border-radius: 2px;
-				text-transform: uppercase;
+			&.header{
+				margin: 100px auto 45px;
+				p{
+					text-align: center;
+					font-size: 12px;
+					letter-spacing: 10px;
+					color: #c9d1d3;
 
-				&:hover, 
-				&:active,
-				&:focus {
-					border: 0;
-				    outline: 2px solid #bdcfca;
-				    border-radius: 2px;
-				    padding: 7px;
+					@media screen and(min-width:770px){
+					    text-align: center;
+					    font-size: 12px;
+					    letter-spacing: 10px;
+				    }
 				}
 				
-				@media screen and (min-width: 768px){
-				    left:4em;
-				    font-size: 10px;
+				a.header-btn{
+				    border: 1.5px solid #bdcfca;
+				    color: #bdcfca;
+				    padding: 5px;
+				    position: absolute;
+				    top: 4em;
+				    left: 2em;
+				    font-size: 9px;
+				    letter-spacing: 2px;
+				    border-radius: 2px;
+				    text-transform: uppercase;
+
+					&:hover, 
+					&:active,
+					&:focus {
+						border: 0;
+					    outline: 2px solid #bdcfca;
+					    border-radius: 2px;
+					    padding: 7px;
+					}
+					
+					
+				}
+			}
+
+				&.main {
+					border-top: 1px solid rgba(65,180,175,.5);
+					padding: 0 0 5em 0;
+					border-bottom: 1px solid rgba(65,180,175,.5);
+
+					&.about, 
+					&.work,
+					&.contact{
+						border-top: none;
+					}
+					
 
 				}
+			
 
-			}
+				&.footer {
+					.footerCopy{
+						text-align:center;
+
+						p{
+							color: #bdcfca;
+							font-size: 9px;
+							text-transform: uppercase;
+							letter-spacing: 6px;
+							opacity: .4;
+							padding-top: 10px;
+						}
+					}
+				}
 		}
 	}
-
 }
+

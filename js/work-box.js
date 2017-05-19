@@ -34,6 +34,22 @@ var workBoxes = [{
 	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis est mauris, ac posuere lacus elementum sit amet. Aliquam in faucibus justo, non euismod lectus. Etiam condimentum finibus nibh nec hendrerit. Cras vestibulum eleifend bibendum. Morbi auctor consequat tellus, ac mollis dolor facilisis vitae. ",
 	siteButtonText: 'download on Apple Store',
 	siteButtonUrl: 'http://www.google.com'
+},{
+	titleOuter: "unhack",
+	imgOuter: 'img/bug3.png',
+	titleInner: "unhacking wordpress sites",
+	imgInner: "img/bug.png",
+	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "medstar",
+	imgOuter: 'img/medstar-outer.png',
+	titleInner: "medstar iOS",
+	imgInner: "img/wordpress-inner.jpg",
+	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis est mauris, ac posuere lacus elementum sit amet. Aliquam in faucibus justo, non euismod lectus. Etiam condimentum finibus nibh nec hendrerit. Cras vestibulum eleifend bibendum. Morbi auctor consequat tellus, ac mollis dolor facilisis vitae. ",
+	siteButtonText: 'download on Apple Store',
+	siteButtonUrl: 'http://www.google.com'
 }];
 
 
@@ -123,14 +139,14 @@ for (var w in workBoxes) {
 
 
 	// Visible work boxes creation
-		container.className = "container work";
+		container.className = "container";
 		rowHeader.className = "row header";
-		rowMain.className = "row main";
+		rowMain.className = "row main work";
 		rowFooter.className = "row footer";
 
 		//create outer div and give it a class name and id
 	    var outerDiv = document.createElement('div');
-	    outerDiv.className = "col-md-4 text-center"; 
+	    outerDiv.className = "col-md-4"; 
 
 		//create workbox div
 	    var workBoxDiv = document.createElement('div');
@@ -140,7 +156,7 @@ for (var w in workBoxes) {
 		workBoxDiv.setAttribute('data-target', "#work-" + w); 
 
 		//create the h1 title and give it a class name, set the inner html of h1 to titleOuter
-	    var outerTitle = document.createElement('h1');
+	    var outerTitle = document.createElement('p');
 	    outerTitle.className = "work-title text-right";
 	    outerTitle.innerHTML = workBoxes[w].titleOuter;
 	    outerTitle.style.position = 'relative';
@@ -168,8 +184,12 @@ headerButton.innerHTML = "home";
 var headerCopy = document.createElement('p');
 headerCopy.innerHTML = "work i've done";
 
-var footerCopy = document.createElement('p');
-footerCopy.innerHTML = "&copy; Molly Underwood 2017";
+var footerCopy = document.createElement('div');
+footerCopy.className = 'footerCopy';
+
+
+var footerP = document.createElement('p');
+footerP.innerHTML = "&copy; Molly Underwood 2017";
 
 
 //add modal html
@@ -184,6 +204,7 @@ rowHeader.appendChild(headerButton);
 container.appendChild(rowMain);
 container.appendChild(rowFooter);
 rowFooter.appendChild(footerCopy);
+footerCopy.appendChild(footerP);
 
 
 
