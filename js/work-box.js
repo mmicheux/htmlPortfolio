@@ -36,7 +36,7 @@ var workBoxes = [{
 	siteButtonUrl: 'http://www.google.com'
 }];
 
-var a = document.createElement('div');
+
 
 var container = document.createElement('div');
 var rowHeader = document.createElement('div');
@@ -50,7 +50,7 @@ for (var w in workBoxes) {
 
 	//modals HTML creation
 		var modal = document.createElement('div');
-		modal.className = 'modal fade work-box';
+		modal.className = 'modal fade';
 		modal.id = "work-"+w;
 		modal.setAttribute('tabindex', -1);
 		modal.setAttribute('role', "dialog");
@@ -70,7 +70,7 @@ for (var w in workBoxes) {
 		var modalTitle = document.createElement('h4');
 		modalTitle.className = 'modal-title';
 		modalTitle.id = "myModalLabel";
-		modalTitle.innerHtml = workBoxes[w].titleInner;
+		modalTitle.innerHTML = workBoxes[w].titleInner;
 
 		var modalBody = document.createElement('div');
 		modalBody.className = "modal-body";
@@ -96,8 +96,8 @@ for (var w in workBoxes) {
 		modalFooterBtns.className = 'modal-footer-btns';
 
 		var backButton = document.createElement('button');
-		backButton.className = 'btn btn-secondary';
 		backButton.setAttribute('type', 'button');
+		backButton.className = 'btn btn-secondary close';
 		backButton.setAttribute('data-dismiss', 'modal');
 		backButton.innerHTML = 'back to work';
 
@@ -123,7 +123,7 @@ for (var w in workBoxes) {
 
 
 	// Visible work boxes creation
-		container.className = "container";
+		container.className = "container work";
 		rowHeader.className = "row header";
 		rowMain.className = "row main";
 		rowFooter.className = "row footer";
@@ -150,24 +150,41 @@ for (var w in workBoxes) {
 	    outerImg.className = "work-image";
 	    outerImg.style.backgroundImage = 'url("' + workBoxes[w].imgOuter + '")';
 
+	    
+
 		rowMain.appendChild(outerDiv);
 		outerDiv.appendChild(workBoxDiv)
 		workBoxDiv.appendChild(outerTitle);
 	    workBoxDiv.appendChild(outerImg);
+
+	    
 		
 }
+var headerButton = document.createElement('a');
+headerButton.setAttribute('href', 'mu-home.html');
+headerButton.className =" header-btn work";
+headerButton.innerHTML = "home";
+
+var headerCopy = document.createElement('p');
+headerCopy.innerHTML = "work i've done";
+
+var footerCopy = document.createElement('p');
+footerCopy.innerHTML = "&copy; Molly Underwood 2017";
+
+
 //add modal html
 document.body.appendChild(allModals);
 
 
 
-//add work-box html
 document.body.appendChild(container);
 container.appendChild(rowHeader);
+rowHeader.appendChild(headerCopy);
+rowHeader.appendChild(headerButton);
 container.appendChild(rowMain);
 container.appendChild(rowFooter);
+rowFooter.appendChild(footerCopy);
 
-    
 
 
     

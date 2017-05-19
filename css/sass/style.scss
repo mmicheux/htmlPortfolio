@@ -8,27 +8,28 @@
 
 //        Global Styles
 
-html{	
-	cursor: url(img/crosshair.png), auto;
+body{	
+	cursor:auto;
+	cursor: url('/img/crosshair.png');
 
 	&:hover, 
 	&:active,
 	&:focus {
-		cursor: url(img/crosshair.png), auto;
+		// cursor: url('crosshair.png'), auto;
 
 	}
 
 	.container{
 		width: 80%;
-		max-width: 60em;
-		margin-top: 10%;
+		max-width: 80em;
+		margin-top: 50px;
 	}
 
 	.row{
-		height:100%;
+
 		&.main {
 			border-top: 1px solid rgba(65,180,175,.5);
-			padding: 3em 0;
+			padding: 0 0 5em 0;
 			border-bottom: 1px solid rgba(65,180,175,.5);
 			min-height: 23em;
 			a.header-btn{

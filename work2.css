@@ -1,9 +1,6 @@
 /*work2.css*/
 
 
-body{
-	background-color: gray;
-}
 
 .container {
 	max-width: 80em;
@@ -34,10 +31,3 @@ h1{
 	text-transform: uppercase;
 }
 
-.description{
-	display: none;
-}
-
-.inner-img{
-	display: none;
-}

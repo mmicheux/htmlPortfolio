@@ -1,23 +1,21 @@
-body .all-modals .modal.fade.work-box.future {
-  display: none; }
-body .all-modals .modal.fade.work-box .modal-dialog {
+body .all-modals .modal.fade .modal-dialog {
   position: relative;
   width: auto;
   margin: 20vh auto 0;
   max-width: 700px; }
   @media screen and (min-width: 768px) {
-    body .all-modals .modal.fade.work-box .modal-dialog {
+    body .all-modals .modal.fade .modal-dialog {
       margin: 10vh auto 0; } }
-  body .all-modals .modal.fade.work-box .modal-dialog .modal-content {
+  body .all-modals .modal.fade .modal-dialog .modal-content {
     background-color: #f4f5f6;
     border-radius: 4px;
     max-width: 90%;
     margin: auto; }
-    body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-header {
+    body .all-modals .modal.fade .modal-dialog .modal-content .modal-header {
       border: 0;
       padding: 15px 15px 0;
       margin-top: 20px; }
-      body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-header h4#myModalLabel {
+      body .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
         color: #41b4af;
         text-transform: lowercase;
         font-weight: 700;
@@ -27,41 +25,41 @@ body .all-modals .modal.fade.work-box .modal-dialog {
         text-align: right;
         padding-right: 10%; }
         @media screen and (min-width: 768px) {
-          body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-header h4#myModalLabel {
+          body .all-modals .modal.fade .modal-dialog .modal-content .modal-header h4#myModalLabel {
             padding-bottom: 15px; } }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-body {
+      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body {
         display: inline-flex; } }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-body .col-md-8 {
+      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 {
         width: 66.66666667%;
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px; } }
-    body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-body .col-md-8 img {
+    body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-8 img {
       margin: 0 auto; }
     @media screen and (min-width: 768px) {
-      body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-body .col-md-4 {
+      body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 {
         width: 33.33333333%;
         position: relative;
         min-height: 1px;
         padding-left: 15px;
         padding-right: 15px; } }
-    body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-body .col-md-4 p {
+    body .all-modals .modal.fade .modal-dialog .modal-content .modal-body .col-md-4 p.description {
       font-size: 11px;
       line-height: 1.5;
       text-transform: uppercase;
       text-align: left;
       max-width: 408px;
       margin: 20px auto; }
-    body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-footer {
+    body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer {
       border-top: none;
       padding: 0 15px 15px; }
       @media screen and (min-width: 768px) {
-        body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-footer .modal-footer-btns {
+        body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns {
           margin-right: 10px; } }
-      body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
+      body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
         background-color: #f4f5f6;
         border: 1px solid #f27461;
         font-size: 11px;
@@ -73,58 +71,66 @@ body .all-modals .modal.fade.work-box .modal-dialog {
         padding: 13px;
         border-radius: 2px; }
         @media screen and (min-width: 768px) {
-          body .all-modals .modal.fade.work-box .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
+          body .all-modals .modal.fade .modal-dialog .modal-content .modal-footer .modal-footer-btns button {
             padding: 5px; } }
-body .container.work .row {
-  padding-bottom: 0;
-  margin-bottom: -10px; }
-  body .container.work .row.main {
-    border-top: 0; }
-    @media screen and (min-width: 768px) {
-      body .container.work .row.main .row {
-        text-align: center; } }
-    body .container.work .row.main .row.work-desc {
-      margin: auto; }
-      body .container.work .row.main .row.work-desc p {
-        margin: 3em auto 5.5em;
+body .container.work .row.header {
+  margin: auto; }
+  body .container.work .row.header a.header-btn {
+    border: 1.5px solid #bdcfca;
+    color: #bdcfca;
+    padding: 5px;
+    position: absolute;
+    top: 4em;
+    left: 2em;
+    font-size: 9px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    text-transform: uppercase; }
+  body .container.work .row.header p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 10px;
+    color: #c9d1d3; }
+    @media screen and (min-width: 770px) {
+      body .container.work .row.header p {
         text-align: center;
         font-size: 12px;
-        letter-spacing: 10px;
-        color: #c9d1d3; }
-        @media screen and (min-width: 770px) {
-          body .container.work .row.main .row.work-desc p {
-            margin-top: 3em;
-            margin-bottom: 5.5em;
-            text-align: center;
-            font-size: 12px;
-            letter-spacing: 10px; } }
-    body .container.work .row.main .row .col-md-4 {
-      max-width: 300px !important;
-      margin: 0 auto; }
-      @media screen and (min-width: 768px) {
-        body .container.work .row.main .row .col-md-4 {
-          display: inline-block; } }
-      body .container.work .row.main .row .col-md-4 .work-box {
-        cursor: hand;
-        text-align: center; }
-        body .container.work .row.main .row .col-md-4 .work-box.future {
-          display: none; }
-        body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail {
-          display: inline-block;
-          text-align: right;
-          background-color: #fff; }
-          body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-overlay {
-            background-image: url("../../img/wordpress.png"); }
-          body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title {
-            position: relative;
-            bottom: 285px; }
-            body .container.work .row.main .row .col-md-4 .work-box .work-thumbnail .work-title p {
-              font-size: 67px;
-              font-weight: 700;
-              letter-spacing: -9.5px;
-              color: #283747;
-              text-transform: uppercase; }
-  body .container.work .row.text-center .footer p {
+        letter-spacing: 10px; } }
+body .container.work .row.main {
+  border-top: 0; }
+  @media screen and (min-width: 768px) {
+    body .container.work .row.main {
+      text-align: center; } }
+  body .container.work .row.main .col-md-4 {
+    max-width: 300px !important;
+    margin: 0 auto;
+    margin: 0 15px; }
+    @media screen and (min-width: 768px) {
+      body .container.work .row.main .col-md-4 {
+        display: inline-block; } }
+    body .container.work .row.main .col-md-4 .work-box {
+      max-width: 100%;
+      display: inline-block; }
+      body .container.work .row.main .col-md-4 .work-box h1.work-title {
+        top: 69px;
+        right: -26px;
+        font-size: 67px;
+        font-weight: 700;
+        letter-spacing: -9.5px;
+        color: #283747;
+        text-transform: uppercase; }
+      body .container.work .row.main .col-md-4 .work-box .work-image {
+        background-color: green;
+        background-size: contain;
+        background-position: center;
+        height: 300px;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-color: #fff; }
+body .container.work .row.footer {
+  text-align: center;
+  margin: auto; }
+  body .container.work .row.footer p {
     color: #bdcfca;
     font-size: 9px;
     text-transform: uppercase;
@@ -379,40 +385,37 @@ body .container.home .row.text-center .footer p {
   opacity: .4;
   padding-top: 10px; }
 
-html {
-  cursor: url(img/crosshair.png), auto; }
-  html:hover, html:active, html:focus {
-    cursor: url(img/crosshair.png), auto; }
-  html .container {
+body {
+  cursor: auto;
+  cursor: url("/img/crosshair.png"); }
+  body .container {
     width: 80%;
-    max-width: 60em;
-    margin-top: 10%; }
-  html .row {
-    height: 100%; }
-    html .row.main {
-      border-top: 1px solid rgba(65, 180, 175, 0.5);
-      padding: 3em 0;
-      border-bottom: 1px solid rgba(65, 180, 175, 0.5);
-      min-height: 23em; }
-      html .row.main a.header-btn {
-        border: 1.5px solid #bdcfca;
-        color: #bdcfca;
-        padding: 5px;
-        position: absolute;
-        top: 4em;
-        left: 2em;
-        font-size: 9px;
-        letter-spacing: 2px;
+    max-width: 80em;
+    margin-top: 50px; }
+  body .row.main {
+    border-top: 1px solid rgba(65, 180, 175, 0.5);
+    padding: 0 0 5em 0;
+    border-bottom: 1px solid rgba(65, 180, 175, 0.5);
+    min-height: 23em; }
+    body .row.main a.header-btn {
+      border: 1.5px solid #bdcfca;
+      color: #bdcfca;
+      padding: 5px;
+      position: absolute;
+      top: 4em;
+      left: 2em;
+      font-size: 9px;
+      letter-spacing: 2px;
+      border-radius: 2px;
+      text-transform: uppercase; }
+      body .row.main a.header-btn:hover, body .row.main a.header-btn:active, body .row.main a.header-btn:focus {
+        border: 0;
+        outline: 2px solid #bdcfca;
         border-radius: 2px;
-        text-transform: uppercase; }
-        html .row.main a.header-btn:hover, html .row.main a.header-btn:active, html .row.main a.header-btn:focus {
-          border: 0;
-          outline: 2px solid #bdcfca;
-          border-radius: 2px;
-          padding: 7px; }
-        @media screen and (min-width: 768px) {
-          html .row.main a.header-btn {
-            left: 4em;
-            font-size: 10px; } }
+        padding: 7px; }
+      @media screen and (min-width: 768px) {
+        body .row.main a.header-btn {
+          left: 4em;
+          font-size: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
