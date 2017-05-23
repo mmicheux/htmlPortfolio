@@ -26,43 +26,32 @@ var workBoxes = [{
 	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
 	siteButtonText: '',
 	siteButtonUrl: ''
-},{
-	titleOuter: "medstar",
-	imgOuter: 'img/medstar-outer.png',
-	titleInner: "medstar iOS",
-	imgInner: "img/wordpress-inner.jpg",
-	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis est mauris, ac posuere lacus elementum sit amet. Aliquam in faucibus justo, non euismod lectus. Etiam condimentum finibus nibh nec hendrerit. Cras vestibulum eleifend bibendum. Morbi auctor consequat tellus, ac mollis dolor facilisis vitae. ",
-	siteButtonText: 'download on Apple Store',
-	siteButtonUrl: 'http://www.google.com'
-},{
-	titleOuter: "unhack",
-	imgOuter: 'img/bug3.png',
-	titleInner: "unhacking wordpress sites",
-	imgInner: "img/bug.png",
-	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
-	siteButtonText: '',
-	siteButtonUrl: ''
-},{
-	titleOuter: "medstar",
-	imgOuter: 'img/medstar-outer.png',
-	titleInner: "medstar iOS",
-	imgInner: "img/wordpress-inner.jpg",
-	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis est mauris, ac posuere lacus elementum sit amet. Aliquam in faucibus justo, non euismod lectus. Etiam condimentum finibus nibh nec hendrerit. Cras vestibulum eleifend bibendum. Morbi auctor consequat tellus, ac mollis dolor facilisis vitae. ",
-	siteButtonText: 'download on Apple Store',
-	siteButtonUrl: 'http://www.google.com'
 }];
 
 
 
-var container = document.createElement('div');
-var rowHeader = document.createElement('div');
-var rowMain = document.createElement('div');
-var rowFooter = document.createElement('div');
+// const completedBoxes = workBoxes.map(
+// 	completedBox => `
+// 	<div class="col-md-4">
+// 		<div class="work-box" id="work-0" data-toggle="modal" data-target="#work-0">
+// 			<p class="work-title text-right" style="position: relative;">wp</p>
+// 			<div class="work-image" style="background-image: url(file:///Users/mollyunderwood/Documents/Personal/htmlPortfolio/s3-mollyunderwood.com/img/wordpress.png);">
+// 			</div>
+// 		</div>
+// 	</div>
 
-var allModals = document.createElement('div');
+// 	`
+// );
+
+var allModals = document.querySelector('.all-modals');
+
+var container = document.querySelector('.container');
+var rowHeader = document.querySelector('.row.header');
+var rowMain = document.querySelector('.row.main.work');
+var rowFooter = document.querySelector('.row.footer');
+
 
 for (var w in workBoxes) {
-	allModals.className = "all-modals";
 
 	//modals HTML creation
 		var modal = document.createElement('div');
@@ -118,10 +107,7 @@ for (var w in workBoxes) {
 		backButton.innerHTML = 'back to work';
 
 		
-
-
-
-		//add child divs to parent div
+		//add child divs to parent divs
 		allModals.appendChild(modal);
 		modal.appendChild(modalDialog);
 		modalDialog.appendChild(modalContent);
@@ -137,12 +123,7 @@ for (var w in workBoxes) {
 		modalFooterBtns.appendChild(backButton);
 
 
-
 	// Visible work boxes creation
-		container.className = "container";
-		rowHeader.className = "row header";
-		rowMain.className = "row main work";
-		rowFooter.className = "row footer";
 
 		//create outer div and give it a class name and id
 	    var outerDiv = document.createElement('div');
@@ -166,46 +147,12 @@ for (var w in workBoxes) {
 	    outerImg.className = "work-image";
 	    outerImg.style.backgroundImage = 'url("' + workBoxes[w].imgOuter + '")';
 
-	    
 
 		rowMain.appendChild(outerDiv);
 		outerDiv.appendChild(workBoxDiv)
 		workBoxDiv.appendChild(outerTitle);
 	    workBoxDiv.appendChild(outerImg);
-
-	    
-		
 }
-var headerButton = document.createElement('a');
-headerButton.setAttribute('href', 'mu-home.html');
-headerButton.className =" header-btn work";
-headerButton.innerHTML = "home";
-
-var headerCopy = document.createElement('p');
-headerCopy.innerHTML = "work i've done";
-
-var footerCopy = document.createElement('div');
-footerCopy.className = 'footerCopy';
-
-
-var footerP = document.createElement('p');
-footerP.innerHTML = "&copy; Molly Underwood 2017";
-
-
-//add modal html
-document.body.appendChild(allModals);
-
-
-
-document.body.appendChild(container);
-container.appendChild(rowHeader);
-rowHeader.appendChild(headerCopy);
-rowHeader.appendChild(headerButton);
-container.appendChild(rowMain);
-container.appendChild(rowFooter);
-rowFooter.appendChild(footerCopy);
-footerCopy.appendChild(footerP);
-
 
 
     

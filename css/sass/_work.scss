@@ -124,13 +124,18 @@
 	&.work{
 
 		.col-md-4{
-			max-width: 400px !important;
-				margin: 0 auto;
-				float: none !important;
-
-				
-				@media screen and (min-width:768px){
+			// max-width: 400px !important;
+			margin: 0 auto;
+			float: none !important;
+			width: 100%;
+			
+			@media screen and (min-width:768px){
 				display: inline-block;
+				width:50%;
+
+			}
+			@media screen and (min-width:1024px){
+				width: 33%;
 			}
 			.work-box{
 				max-width: 100%;
@@ -149,7 +154,6 @@
 					float:right;
 				}
 				.work-image{
-					background-color: green;
 					background-size: contain;
 				    background-position: center;
 				    height: 300px;

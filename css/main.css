@@ -78,12 +78,16 @@
   border-top: 0;
   text-align: center; }
   .main.work .col-md-4 {
-    max-width: 400px !important;
     margin: 0 auto;
-    float: none !important; }
+    float: none !important;
+    width: 100%; }
     @media screen and (min-width: 768px) {
       .main.work .col-md-4 {
-        display: inline-block; } }
+        display: inline-block;
+        width: 50%; } }
+    @media screen and (min-width: 1024px) {
+      .main.work .col-md-4 {
+        width: 33%; } }
     .main.work .col-md-4 .work-box {
       max-width: 100%;
       display: inline-block;
@@ -99,7 +103,6 @@
         margin-bottom: 0;
         float: right; }
       .main.work .col-md-4 .work-box .work-image {
-        background-color: green;
         background-size: contain;
         background-position: center;
         height: 300px;
