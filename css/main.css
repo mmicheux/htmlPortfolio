@@ -188,35 +188,35 @@
         color: #f27461 !important;
         z-index: 2; }
 
-body .container.contact .row.main {
+.contact {
   border-top: 0; }
-  body .container.contact .row.main .contact-box {
+  .contact .contact-box {
     margin: auto;
     position: relative; }
     @media screen and (min-width: 770px) {
-      body .container.contact .row.main .contact-box {
+      .contact .contact-box {
         width: 45em; } }
-    body .container.contact .row.main .contact-box p {
+    .contact .contact-box p {
       margin: 3em auto;
       text-align: center;
       color: #c9d1d3;
       font-size: 12px;
       letter-spacing: 10px; }
       @media screen and (min-width: 770px) {
-        body .container.contact .row.main .contact-box p {
+        .contact .contact-box p {
           margin-top: 3em;
           margin-bottom: 5.5em;
           text-align: center;
           font-size: 12px;
           letter-spacing: 10px; } }
-    body .container.contact .row.main .contact-box .contact-buttons {
+    .contact .contact-box .contact-buttons {
       margin-bottom: 5em;
       padding: 0;
       text-align: center; }
       @media screen and (min-width: 770px) {
-        body .container.contact .row.main .contact-box .contact-buttons {
+        .contact .contact-box .contact-buttons {
           text-align: left; } }
-      body .container.contact .row.main .contact-box .contact-buttons a.contact {
+      .contact .contact-box .contact-buttons a.contact {
         color: rgba(242, 116, 97, 0.88);
         font-weight: 700;
         text-transform: uppercase;
@@ -225,51 +225,45 @@ body .container.contact .row.main {
         z-index: 111;
         position: relative;
         display: block;
-        font-size: 50px; }
+        font-size: 50px;
+        text-decoration: none; }
         @media screen and (min-width: 770px) {
-          body .container.contact .row.main .contact-box .contact-buttons a.contact {
+          .contact .contact-box .contact-buttons a.contact {
             zoom: 2.5;
             font-size: 50px;
             line-height: .6; } }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact:nth-child(2n+2) {
+        .contact .contact-box .contact-buttons a.contact:nth-child(2n+2) {
           color: rgba(245, 157, 144, 0.88); }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact.email {
+        .contact .contact-box .contact-buttons a.contact.email {
           font-size: 90px; }
           @media screen and (min-width: 770px) {
-            body .container.contact .row.main .contact-box .contact-buttons a.contact.email:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.email:active {
+            .contact .contact-box .contact-buttons a.contact.email:hover, .contact .contact-box .contact-buttons a.contact.email:active {
               color: #41b4af;
               z-index: 222 !important; } }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin {
+        .contact .contact-box .contact-buttons a.contact.linkedin {
           font-size: 63px; }
           @media screen and (min-width: 770px) {
-            body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.linkedin:active {
+            .contact .contact-box .contact-buttons a.contact.linkedin:hover, .contact .contact-box .contact-buttons a.contact.linkedin:active {
               color: #41b4af;
               z-index: 222 !important; } }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram {
+        .contact .contact-box .contact-buttons a.contact.instagram {
           font-size: 50px; }
           @media screen and (min-width: 770px) {
-            body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.instagram:active {
+            .contact .contact-box .contact-buttons a.contact.instagram:hover, .contact .contact-box .contact-buttons a.contact.instagram:active {
               color: #41b4af;
               z-index: 222 !important; } }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot {
+        .contact .contact-box .contact-buttons a.contact.ywot {
           font-size: 91px; }
           @media screen and (min-width: 770px) {
-            body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.ywot:active {
+            .contact .contact-box .contact-buttons a.contact.ywot:hover, .contact .contact-box .contact-buttons a.contact.ywot:active {
               color: #41b4af;
               z-index: 222 !important; } }
-        body .container.contact .row.main .contact-box .contact-buttons a.contact.github {
+        .contact .contact-box .contact-buttons a.contact.github {
           font-size: 74px; }
           @media screen and (min-width: 770px) {
-            body .container.contact .row.main .contact-box .contact-buttons a.contact.github:hover, body .container.contact .row.main .contact-box .contact-buttons a.contact.github:active {
+            .contact .contact-box .contact-buttons a.contact.github:hover, .contact .contact-box .contact-buttons a.contact.github:active {
               color: #41b4af;
               z-index: 222 !important; } }
-body .container.contact .row.text-center .footer p {
-  color: #bdcfca;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  opacity: .4;
-  padding-top: 10px; }
 
 .header.logo h1.text-center {
   text-transform: uppercase;

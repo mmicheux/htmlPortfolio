@@ -1,155 +1,126 @@
-// _contact.scss
+.contact{
+	border-top:0;
+		.contact-box{
+			margin:auto;
+			position:relative;
 
-body{
-	.container{
-		&.contact{
-			.row{
-				&.main{
-					border-top:0;
-					a.header-btn{
-						&.work{
-							
-						}
+			@media screen and (min-width: 770px){
+				width: 45em;
+			}
 
+			p {
+				margin: 3em auto;
+			    text-align: center;
+			    color: #c9d1d3;
+			    font-size: 12px;
+			    letter-spacing: 10px;
+
+			    @media screen and(min-width:770px){
+			    	margin-top: 3em;
+				    margin-bottom: 5.5em;
+				    text-align: center;
+				    font-size: 12px;
+				    letter-spacing: 10px;
+			    }
+			}
+			.contact-buttons{
+				margin-bottom:5em;
+				padding: 0;
+				text-align: center;
+
+				@media screen and (min-width:770px){
+					text-align: left;
+				}
+
+				a.contact{
+					color: rgba(242,116,97,.88);
+				    font-weight: 700;
+				    text-transform: uppercase;
+				    line-height: .7;
+				    letter-spacing: -5px;
+				    z-index: 111;
+				    position: relative;
+				    display: block;
+				    font-size: 50px;
+				    text-decoration: none;
+
+				    @media screen and (min-width: 770px){
+				    	zoom:2.5;
+					    font-size: 50px;
+				    	line-height: .6;
+				    }
+
+				    &:nth-child(2n+2) {
+					    color: rgba(245,157,144,.88);
 					}
 
-					.contact-box{
-						margin:auto;
-						position:relative;
-
+					&.email{
+						font-size:90px;
 						@media screen and (min-width: 770px){
-							width: 45em;
-						}
-
-						p {
-							margin: 3em auto;
-						    text-align: center;
-						    color: #c9d1d3;
-						    font-size: 12px;
-						    letter-spacing: 10px;
-
-						    @media screen and(min-width:770px){
-						    	margin-top: 3em;
-							    margin-bottom: 5.5em;
-							    text-align: center;
-							    font-size: 12px;
-							    letter-spacing: 10px;
-						    }
-						}
-						.contact-buttons{
-							margin-bottom:5em;
-							padding: 0;
-							text-align: center;
-
-							@media screen and (min-width:770px){
-								text-align: left;
-							}
-
-							a.contact{
-								color: rgba(242,116,97,.88);
-							    font-weight: 700;
-							    text-transform: uppercase;
-							    line-height: .7;
-							    letter-spacing: -5px;
-							    z-index: 111;
-							    position: relative;
-							    display: block;
-							    font-size: 50px;
-
-							    @media screen and (min-width: 770px){
-							    	zoom:2.5;
-								    font-size: 50px;
-							    	line-height: .6;
-							    }
-
-							    &:nth-child(2n+2) {
-								    color: rgba(245,157,144,.88);
-								}
-
-								&.email{
-									font-size:90px;
-									@media screen and (min-width: 770px){
-										
-
-										&:hover,
-										&:active{
-											color: #41b4af;
-											z-index: 222 !important;
-										}
-									}
-
-								}
-
-								&.linkedin{
-									font-size: 63px;
-									@media screen and (min-width: 770px){
-										
-
-										&:hover,
-										&:active{
-											color: #41b4af;
-											z-index: 222 !important;
-										}
-									}
-								}
-
-								&.instagram{
-									font-size: 50px;
-									@media screen and (min-width: 770px){
-										
-
-										&:hover,
-										&:active{
-											color: #41b4af;
-											z-index: 222 !important;
-										}
-									}
-								}
-
-								&.ywot{
-									font-size: 91px;
-									@media screen and (min-width: 770px){
-										
-
-										&:hover,
-										&:active{
-											color: #41b4af;
-											z-index: 222 !important;
-										}
-									}
-								}
-
-								&.github{
-									font-size: 74px;
-									@media screen and (min-width: 770px){
-										
-
-										&:hover,
-										&:active{
-											color: #41b4af;
-											z-index: 222 !important;
-										}
-									}
-								}
-							}
 							
-						}
-					}
-				}
 
-				&.text-center{
-					.footer{
-						p{
-							color: #bdcfca;
-							font-size: 9px;
-							text-transform: uppercase;
-							letter-spacing: 6px;
-							opacity: .4;
-							padding-top: 10px;
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
+						}
+
+					}
+
+					&.linkedin{
+						font-size: 63px;
+						@media screen and (min-width: 770px){
+							
+
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
+						}
+					}
+
+					&.instagram{
+						font-size: 50px;
+						@media screen and (min-width: 770px){
+							
+
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
+						}
+					}
+
+					&.ywot{
+						font-size: 91px;
+						@media screen and (min-width: 770px){
+							
+
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
+						}
+					}
+
+					&.github{
+						font-size: 74px;
+						@media screen and (min-width: 770px){
+							
+
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
 						}
 					}
 				}
+				
 			}
 		}
-	}
 }
