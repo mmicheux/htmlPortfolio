@@ -12,10 +12,10 @@ var workBoxes = [{
 	siteButtonUrl: ''
 },{
 	titleOuter: "maxx",
-	imgOuter: 'img/maxx.png',
+	imgOuter: 'img/maxx-outer.png',
 	titleInner: "maxx potential",
 	imgInner: "img/maxx2.png",
-	description: "FOR THE MAXX POTENTIAL WEBSITE, I STYLED THE SUPPORT PAGE. I ALSO COMPLETED SOME TESTING ON THE SITE. IN TESTING, I WAS RESPONSIBLE FOR FIXING THE ISSUES FOUND IN THE TESTING PROCESS. THIS INCLUDED USING HTML, CSS, AND PHP IN ORDER TO PROVIDE THE CORRECT FIXES FOR THE WEBSITE.",
+	description: "FOR THE MAXX POTENTIAL WEBSITE, I STYLED THE SUPPORT PAGE and updated content on the for learners page. I ALSO COMPLETED SOME TESTING ON THE SITE. IN TESTING, I WAS RESPONSIBLE FOR FIXING THE ISSUES FOUND IN THE TESTING PROCESS. THIS INCLUDED USING HTML, CSS, AND PHP IN ORDER TO PROVIDE THE CORRECT FIXES FOR THE WEBSITE. In order to make some content updates, I also was able to use a SFTP client to update the server. ",
 	siteButtonText: "visit maxx",
 	siteButtonUrl: "http://www.maxxpotential.com"
 },{
@@ -23,30 +23,45 @@ var workBoxes = [{
 	imgOuter: 'img/bug3.png',
 	titleInner: "unhacking wordpress sites",
 	imgInner: "img/bug.png",
-	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
+	description: "I WORKED WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE WERE CLEANED, DANGEROUS FILES AND TABLES REMOVED, THE SITE WAS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S USED BY THE THEME ANEW.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "medstar",
+	imgOuter: 'img/medstar-outer.png',
+	titleInner: "Find A Doctor iOS app",
+	imgInner: "img/medstar-inner.jpg",
+	description: "I added filtering functionality on search for Medstar on their Find a Doctor iOS app. This allowed people using the app to find doctors based on their language spoken and insurance accepted and see on doctor profiles which insurances they accepted. ",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "iOS++",
+	imgOuter: 'img/ios-outer.jpg',
+	titleInner: "from objective-c to swift",
+	imgInner: "img/ios-inner.png",
+	description: "I gained proficiency with Objective-C through recreating UIViews, TableViews, WebViews, and CollectionViews that I saw in the wild. I have taken projects given to me by peers and recreated them in iOS using storyboards and Ojective-C. While I started learning Swift 3, I am continuing down that path of learning towards switching completely to programming for iOS in Swift. For now, I know enough to be able to recreate some things in Objective-C.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "timber",
+	imgOuter: 'img/truetimber-outer.png',
+	titleInner: "True Timber Arborists",
+	imgInner: "img/truetimber-inner.png",
+	description: "For True Timber, I focused on fixing bugs that the client had noticed. These bugs included making updates to the content both by using plugins and in PHP templates. I updated the front page logo, used media queries and added a Back to Map button on individual tree pages. I used PHP, CSS and HTML to correct these issues. I also connected the True Timber Instagram feed.",
 	siteButtonText: '',
 	siteButtonUrl: ''
 }];
 /*
 ,{
-	titleOuter: "unhack",
-	imgOuter: 'img/bug3.png',
-	titleInner: "unhacking wordpress sites",
-	imgInner: "img/bug.png",
-	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
+	titleOuter: "iOS++",
+	imgOuter: 'img/ios-outer.jpg',
+	titleInner: "from objective-c to swift",
+	imgInner: "img/ios-inner.png",
+	description: "I gained proficiency with Objective-C through recreating UIViews, TableViews, WebViews, and CollectionViews that I saw in the wild. I have taken projects given to me by peers and recreated them in iOS using storyboards and Ojective-C. While I started learning Swift 3, I am continuing down that path of learning towards switching completely to programming for iOS in Swift. For now, I know enough to be able to recreate some things in Objective-C.",
 	siteButtonText: '',
 	siteButtonUrl: ''
-},{
-	titleOuter: "unhack",
-	imgOuter: 'img/bug3.png',
-	titleInner: "unhacking wordpress sites",
-	imgInner: "img/bug.png",
-	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
-	siteButtonText: '',
-	siteButtonUrl: ''
-}
+}*/
 
-*/
 
 // const completedBoxes = workBoxes.map(
 // 	completedBox => `

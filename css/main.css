@@ -80,14 +80,14 @@
   .main.work .col-md-4 {
     margin: 0 auto;
     float: none !important;
-    width: 100%; }
+    max-width: 100%; }
     @media screen and (min-width: 768px) {
       .main.work .col-md-4 {
-        display: inline-block;
-        width: 50%; } }
-    @media screen and (min-width: 1024px) {
+        max-width: 33%; } }
+    @media screen and (min-width: 1200px) {
       .main.work .col-md-4 {
-        width: 33%; } }
+        display: inline-block;
+        max-width: 50% !important; } }
     .main.work .col-md-4 .work-box {
       max-width: 100%;
       display: inline-block;
