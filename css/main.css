@@ -110,83 +110,84 @@
         background-repeat: no-repeat;
         background-color: #fff; }
 
-.main {
+.about {
+  margin: auto;
+  width: 100%;
+  position: relative;
   border-bottom-color: #f27461 !important; }
-  .main.about {
-    margin: auto;
-    width: 100%;
-    position: relative; }
-    @media screen and (min-width: 770px) {
-      .main.about {
-        width: 100%; } }
-    .main.about ul.about-text {
-      margin: 0 auto 5em;
-      width: 55em;
-      padding: 0; }
-      .main.about ul.about-text li {
-        text-align: left !important;
-        margin: 0 !important;
-        padding: 0;
-        line-height: .7;
-        letter-spacing: -5px;
-        color: rgba(65, 180, 175, 0.88);
-        display: block;
-        position: relative;
-        font-weight: 700;
-        z-index: 1;
-        zoom: 1; }
+  @media screen and (min-width: 770px) {
+    .about {
+      width: 100%; } }
+  .about ul.about-text {
+    margin: 0 auto 5em;
+    max-width: 40em;
+    width: 300px;
+    padding: 0; }
+    @media screen and (min-width: 768px) {
+      .about ul.about-text {
+        width: 40em; } }
+    .about ul.about-text li {
+      text-align: left !important;
+      margin: 0 !important;
+      padding: 0;
+      line-height: .7;
+      letter-spacing: -5px;
+      color: rgba(65, 180, 175, 0.88);
+      display: block;
+      position: relative;
+      font-weight: 700;
+      z-index: 1;
+      zoom: 1; }
+      @media screen and (min-width: 770px) {
+        .about ul.about-text li {
+          zoom: 2;
+          line-height: .6; } }
+      .about ul.about-text li#line1 {
+        font-size: 60px; }
+      .about ul.about-text li#line2 {
+        font-size: 69px; }
+      .about ul.about-text li#line3 {
+        font-size: 50.5px; }
+      .about ul.about-text li#line4 {
+        font-size: 56px; }
+      .about ul.about-text li#line5 {
+        font-size: 53px; }
+      .about ul.about-text li#line6 {
+        font-size: 58px; }
+      .about ul.about-text li#line7 {
+        font-size: 65.5px; }
+      .about ul.about-text li#line8 {
+        font-size: 63px; }
+      .about ul.about-text li#line9 {
+        font-size: 69px; }
+      .about ul.about-text li#line10 {
+        font-size: 48px; }
         @media screen and (min-width: 770px) {
-          .main.about ul.about-text li {
-            zoom: 2;
+          .about ul.about-text li#line10 {
+            display: block; } }
+      .about ul.about-text li#games {
+        font-size: 84px;
+        line-height: .5; }
+        @media screen and (min-width: 770px) {
+          .about ul.about-text li#games {
+            display: block;
             line-height: .6; } }
-        .main.about ul.about-text li#line1 {
-          font-size: 60px; }
-        .main.about ul.about-text li#line2 {
-          font-size: 69px; }
-        .main.about ul.about-text li#line3 {
-          font-size: 50.5px; }
-        .main.about ul.about-text li#line4 {
-          font-size: 56px; }
-        .main.about ul.about-text li#line5 {
-          font-size: 53px; }
-        .main.about ul.about-text li#line6 {
-          font-size: 58px; }
-        .main.about ul.about-text li#line7 {
-          font-size: 65.5px; }
-        .main.about ul.about-text li#line8 {
-          font-size: 63px; }
-        .main.about ul.about-text li#line9 {
-          font-size: 69px; }
-        .main.about ul.about-text li#line10 {
-          font-size: 48px;
-          display: inline; }
-          @media screen and (min-width: 770px) {
-            .main.about ul.about-text li#line10 {
-              display: block; } }
-        .main.about ul.about-text li#games {
-          font-size: 84px;
-          display: inline;
-          line-height: .5; }
-          @media screen and (min-width: 770px) {
-            .main.about ul.about-text li#games {
-              display: block;
-              line-height: .6; } }
-        .main.about ul.about-text li#line11 {
-          font-size: 53px; }
-        .main.about ul.about-text li#line12 {
-          font-size: 54px; }
-        .main.about ul.about-text li#line13 {
-          font-size: 80px; }
-        .main.about ul.about-text li:hover {
-          color: #f27461;
-          z-index: 2; }
-        .main.about ul.about-text li:nth-child(2n) {
-          color: rgba(122, 202, 199, 0.88); }
-          .main.about ul.about-text li:nth-child(2n):hover {
-            color: #f27461; }
-      .main.about ul.about-text .ase:hover li {
-        color: #f27461 !important;
+      .about ul.about-text li#line11 {
+        font-size: 53px; }
+      .about ul.about-text li#line12 {
+        font-size: 54px; }
+      .about ul.about-text li#line13 {
+        font-size: 80px; }
+      .about ul.about-text li:hover {
+        color: #f27461;
         z-index: 2; }
+      .about ul.about-text li:nth-child(2n) {
+        color: rgba(122, 202, 199, 0.88); }
+        .about ul.about-text li:nth-child(2n):hover {
+          color: #f27461; }
+    .about ul.about-text .ase:hover li {
+      color: #f27461;
+      z-index: 2; }
 
 .contact {
   border-top: 0; }
@@ -328,9 +329,12 @@ body {
   cursor: auto;
   cursor: url("/img/crosshair.png"); }
   body .container {
-    width: 80%;
+    width: 100%;
     max-width: 80em;
     margin-top: 50px; }
+    @media screen and (min-width: 768px) {
+      body .container {
+        width: 80%; } }
     body .container .row.header {
       margin: 100px auto 45px; }
       body .container .row.header p {

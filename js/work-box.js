@@ -27,8 +27,26 @@ var workBoxes = [{
 	siteButtonText: '',
 	siteButtonUrl: ''
 }];
+/*
+,{
+	titleOuter: "unhack",
+	imgOuter: 'img/bug3.png',
+	titleInner: "unhacking wordpress sites",
+	imgInner: "img/bug.png",
+	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "unhack",
+	imgOuter: 'img/bug3.png',
+	titleInner: "unhacking wordpress sites",
+	imgInner: "img/bug.png",
+	description: "I HAVE BEEN WORKING WITH A TEAM OF APPRENTICES TO COMB THROUGH HACKED SITES' SQL DATABASES AND WORDPRESS FILES TO FIND ANY SUSPICIOUS CODE OR FILES. AFTER THE FILES AND DATABASE HAS BEEN CLEANED, THE SITE IS PUT BACK TOGETHER BY REINSTALLING THE THEME AND ANY PLUGIN'S FRESH.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+}
 
-
+*/
 
 // const completedBoxes = workBoxes.map(
 // 	completedBox => `
