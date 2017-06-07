@@ -119,6 +119,20 @@
 							}
 						}
 					}
+					&.resume{
+						font-size: 68px;
+						letter-spacing: -7px;
+
+						@media screen and (min-width: 770px){
+							
+
+							&:hover,
+							&:active{
+								color: #41b4af;
+								z-index: 222 !important;
+							}
+						}
+					}
 				}
 				
 			}

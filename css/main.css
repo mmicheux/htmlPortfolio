@@ -265,6 +265,13 @@
             .contact .contact-box .contact-buttons a.contact.github:hover, .contact .contact-box .contact-buttons a.contact.github:active {
               color: #41b4af;
               z-index: 222 !important; } }
+        .contact .contact-box .contact-buttons a.contact.resume {
+          font-size: 68px;
+          letter-spacing: -7px; }
+          @media screen and (min-width: 770px) {
+            .contact .contact-box .contact-buttons a.contact.resume:hover, .contact .contact-box .contact-buttons a.contact.resume:active {
+              color: #41b4af;
+              z-index: 222 !important; } }
 
 .header.logo h1.text-center {
   text-transform: uppercase;
