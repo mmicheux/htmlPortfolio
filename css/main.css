@@ -372,7 +372,6 @@ body {
           padding: 7px; }
     body .container .row.main {
       border-top: 1px solid rgba(65, 180, 175, 0.5);
-      padding: 0 0 5em 0;
       border-bottom: 1px solid rgba(65, 180, 175, 0.5); }
       body .container .row.main.about, body .container .row.main.work, body .container .row.main.contact {
         border-top: none; }
