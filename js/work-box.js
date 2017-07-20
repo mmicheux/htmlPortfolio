@@ -64,7 +64,7 @@ var workBoxes = [{
 
 
 // const completedBoxes = workBoxes.map(
-// 	completedBox => `
+// 	(completedBox) => `
 // 	<div class="col-md-4">
 // 		<div class="work-box" id="work-0" data-toggle="modal" data-target="#work-0">
 // 			<p class="work-title text-right" style="position: relative;">wp</p>
