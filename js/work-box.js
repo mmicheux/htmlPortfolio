@@ -50,18 +50,32 @@ var workBoxes = [{
 	description: "For True Timber, I focused on fixing bugs that the client had noticed. These bugs included making updates to the content both by using plugins and in PHP templates. I updated the front page logo, used media queries and added a Back to Map button on individual tree pages. I used PHP, CSS and HTML to correct these issues. I also connected the True Timber Instagram feed.",
 	siteButtonText: '',
 	siteButtonUrl: ''
-}];
-/*
-,{
-	titleOuter: "iOS++",
-	imgOuter: 'img/ios-outer.jpg',
-	titleInner: "from objective-c to swift",
-	imgInner: "img/ios-inner.png",
-	description: "I gained proficiency with Objective-C through recreating UIViews, TableViews, WebViews, and CollectionViews that I saw in the wild. I have taken projects given to me by peers and recreated them in iOS using storyboards and Ojective-C. While I started learning Swift 3, I am continuing down that path of learning towards switching completely to programming for iOS in Swift. For now, I know enough to be able to recreate some things in Objective-C.",
+},{
+	titleOuter: "pra",
+	imgOuter: 'img/pragroup.png',
+	titleInner: "Database Migration",
+	imgInner: "img/hpqc.png",
+	description: "I worked with PRA Group based out of Norfolk, Va on a database migration project. The QA team was switching from HP Quality Center to a new testing suite called Version One. In this process, I wrote and ran queries on their database using PL SQL to loop through the data. I worked to transform the data from what was exported from HP Quality Center into usable data that Version One would take in.",
 	siteButtonText: '',
 	siteButtonUrl: ''
-}*/
-
+},{
+	titleOuter: "authentic",
+	imgOuter: 'img/authentic-outer.png',
+	titleInner: "component creation and styling",
+	imgInner: "img/weareauthentic.png",
+	description: "At authentic, I worked with two clients on the creation and styling of components for their Hippo CMS based websites. I was able to use SCSS to style the majority of the pages and components while using the Freemarker templating language to build out components. In this project, I was in contact with both clients and worked to provide them the necessary required products in an efficient manner.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+},{
+	titleOuter: "tsheets",
+	imgOuter: 'img/tsheets-outer.png',
+	titleInner: "component creation and styling",
+	imgInner: "img/tsheets-inner.png",
+	description: "At authentic, I worked with two clients on the creation and styling of components for their Hippo CMS based websites. I was able to use SCSS to style the majority of the pages and components while using the Freemarker templating language to build out components. In this project, I was in contact with both clients and worked to provide them the necessary required products in an efficient manner.",
+	siteButtonText: '',
+	siteButtonUrl: ''
+}
+];
 
 // const completedBoxes = workBoxes.map(
 // 	(completedBox) => `
