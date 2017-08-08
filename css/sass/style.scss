@@ -15,7 +15,6 @@ body{
 	.container{
 		width: 100%;
 		max-width: 80em;
-		margin-top: 50px;
 		
 		@media screen and (min-width:768px){
 			width: 80%;
@@ -24,7 +23,7 @@ body{
 		.row{
 
 			&.header{
-				margin: 100px auto 45px;
+				margin: 50px auto 45px;
 				p{
 					text-align: center;
 					font-size: 12px;
