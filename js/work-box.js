@@ -71,7 +71,7 @@ var workBoxes = [{
 	imgOuter: 'img/tsheets-outer.png',
 	titleInner: "component creation and styling",
 	imgInner: "img/tsheets-inner.png",
-	description: "At authentic, I worked with two clients on the creation and styling of components for their Hippo CMS based websites. I was able to use SCSS to style the majority of the pages and components while using the Freemarker templating language to build out components. In this project, I was in contact with both clients and worked to provide them the necessary required products in an efficient manner.",
+	description: "I built an admin webapp designed to be able to bulk edit employee and group permissions, create and auto-email reports and authenticate users. This web app was built using the Laravel framework. It also used Docker, SCSS and the TSheets API utilizing GET, POST, PUT, and DELETE requests.",
 	siteButtonText: '',
 	siteButtonUrl: ''
 }
