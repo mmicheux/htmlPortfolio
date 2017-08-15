@@ -63,7 +63,7 @@ var workBoxes = [{
 	imgOuter: 'img/authentic-outer.png',
 	titleInner: "component creation and styling",
 	imgInner: "img/weareauthentic.png",
-	description: "At authentic, I worked with two clients on the creation and styling of components for their Hippo CMS based websites. I was able to use SCSS to style the majority of the pages and components while using the Freemarker templating language to build out components. In this project, I was in contact with both clients and worked to provide them the necessary required products in an efficient manner.",
+	description: "I have worked with the digital consulting agency, Authentic, multiple times. Both times,  I worked with several clients on the creation and styling of components for their Hippo CMS based websites. I was able to use SCSS to style the majority of the pages and components while using the Freemarker and Nunjucks templating language to build out components. In this project, I was in contact with both clients and worked to provide them the necessary required products in an efficient manner.",
 	siteButtonText: '',
 	siteButtonUrl: ''
 },{

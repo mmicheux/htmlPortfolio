@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MU SKILLS</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/fcebf8dbc5.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<style type="text/css">
+	.fa-key{
+		position: absolute;
+		color: white;
+		font-size: 25px;
+		top: 150px;
+
+	}
+
+	#key1{
+		left: 100px;
+		
+		animation: floatRight 3s infinite linear;
+	}
+	#key2{
+		left: 150px;
+		animation: floatLeft 2s infinite linear;
+
+	}
+	
+	#key3{
+		left: 200px;
+		animation: floatRight 5s infinite linear;
+
+	}
+	#key4{
+		left: 250px;
+		animation: floatLeft 2s infinite linear;
+
+	}
+	#key5{
+		left:300px;
+		animation: floatRight 3s infinite linear;
+	}
+
+	
+	@keyframes floatRight {
+		0% { transform: translate(0%, 0%); }
+		50% { transform: translate(-10%, -10%); }
+		100% { transform: translate(0%, 0%); }
+	}
+
+	@-webkit-keyframes floatRight {
+		0% { transform: translate(0px, 0px); }
+		50% { transform: translate(-10px, 10px); }
+		100% { transform: translate(0px, 0px); }
+	}
+	@-moz-keyframes floatRight {
+		0% { transform: translate(0px, 0px); }
+		50% { transform: translate(-10px, 10px); }
+		100% { transform: translate(0px, 0px); }
+	}
+
+
+	@keyframes floatLeft {
+		0% { transform: translate(0px, 0px); }
+		50% { transform: translate(10px, 10px); }
+		100% { transform: translate(0px, 0px); }
+	}
+
+	@-webkit-keyframes floatLeft {
+		0% { transform: translate(0px, 0px); }
+		50% { transform: translate(10px, 10px); }
+		100% { transform: translate(0px, 0px); }
+	}
+	@-moz-keyframes floatLeft {
+		0% { transform: translate(0px, 0px); }
+		50% { transform: translate(10px, 10px); }
+		100% { transform: translate(0px, 0px); }
+	}
+
+</style>
+
+	<div class="container">
+		
+		<div class="row header">
+			
+	        <a href="mu-home.html" class="header-btn">home</a>
+	        <p>what i can do</p>
+		</div>
+
+		<div class="row main">
+
+			<i class="fa fa-key" id="key1" aria-hidden="true"></i>
+			<i class="fa fa-key" id="key2" aria-hidden="true"></i>
+			<i class="fa fa-key" id="key3" aria-hidden="true"></i>
+			<i class="fa fa-key" id="key4" aria-hidden="true"></i>
+			<i class="fa fa-key" id="key5" aria-hidden="true"></i>
+
+
+			
+		</div>
+
+		<div class="footer">
+			<div class="footerCopy">
+	          <p>&copy; Molly Underwood 2017</p>
+	        </div>
+		</div>
+
+
+	</div>
+</body>
+</html>
