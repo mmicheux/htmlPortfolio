@@ -9,13 +9,18 @@
 //        Global Styles
 
 body{	
-	cursor:auto;
-	cursor: url('/img/crosshair.png');
-
+	background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+	
 	.container{
-		width: 100%;
-		max-width: 80em;
-		
+		&#gradient{
+			width: 100%;
+			max-width: 80em;
+			height: 100vh;
+			padding: 0;
+			margin: 0 auto;
+		}
 		@media screen and (min-width:768px){
 			width: 80%;
 		}
