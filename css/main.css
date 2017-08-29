@@ -84,8 +84,7 @@
   border-top: 0;
   text-align: center; }
   .main.work {
-    display: block !important;
-    background: red; }
+    display: block !important; }
     .main.work .work-box {
       margin: 20px auto;
       width: 100%;
