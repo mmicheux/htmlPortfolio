@@ -153,6 +153,24 @@ for (var w in workBoxes) {
 	backButton.setAttribute('data-dismiss', 'modal');
 	backButton.innerHTML      = 'back to work';
 
+	var backButton            = document.createElement('button');
+	backButton.setAttribute('type', 'button');
+	backButton.className      = 'btn btn-secondary close';
+	backButton.setAttribute('data-dismiss', 'modal');
+	backButton.innerHTML      = 'back to work';
+
+	var prevButton            = document.createElement('button');
+	prevButton.setAttribute('type', 'button');
+	prevButton.className      = 'btn btn-default btn-prev';
+	prevButton.setAttribute('type', 'button');
+	prevButton.innerHTML      = 'previous';
+
+	var nextButton            = document.createElement('button');
+	nextButton.setAttribute('type', 'button');
+	nextButton.className      = 'btn btn-default btn-next';
+	nextButton.setAttribute('type', 'button');
+	nextButton.innerHTML      = 'next';
+
 
 	//add child divs to parent divs
 	allModals.appendChild(modal);
@@ -168,6 +186,8 @@ for (var w in workBoxes) {
 	modalContent.appendChild(modalFooter);
 	modalFooter.appendChild(modalFooterBtns);
 	modalFooterBtns.appendChild(backButton);
+	modalFooterBtns.appendChild(prevButton);
+	modalFooterBtns.appendChild(nextButton);
 
 
 	// Visible work boxes creation
@@ -200,6 +220,25 @@ for (var w in workBoxes) {
 	workBoxDiv.appendChild(outerTitle);
 	workBoxDiv.appendChild(outerImg);
 }
+
+
+$("div[id^='work-']").each(function(){
+  
+  var currentModal = $(this);
+  
+  //click next
+  currentModal.find('.btn-next').click(function(){
+    currentModal.modal('hide');
+    currentModal.closest("div[id^='work-']").nextAll("div[id^='work-']").first().modal('show'); 
+  });
+  
+  //click prev
+  currentModal.find('.btn-prev').click(function(){
+    currentModal.modal('hide');
+    currentModal.closest("div[id^='work-']").prevAll("div[id^='work-']").first().modal('show'); 
+  });
+
+});
 
 
 
