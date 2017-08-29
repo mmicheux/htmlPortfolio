@@ -83,13 +83,12 @@ var workBoxes = [{
 
 const workBoxesMarkup = `
 	${workBoxes.map(workBox => `  
-	<div class="col-md-4">
-		<div class="work-box" id="work-${workBox.id}" data-toggle="modal" data-target="#work-${workBox.id}">
-			<p class="work-title text-right" style="position: relative;">${workBox.titleOuter}</p>
-			<div class="work-image" style="background-image: url('${workBox.imgOuter}');">
+
+		<div class="work-box col-md-4" id="work-${workBox.id}" data-toggle="modal" data-target="#work-${workBox.id}" style="background-image: url('${workBox.imgOuter}');">
+			<p class="work-title text-right">${workBox.titleOuter}</p>
 			</div>
 		</div>
-	</div>
+
 	`).join('')}
 `;
 
