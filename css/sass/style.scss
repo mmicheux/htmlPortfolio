@@ -12,90 +12,92 @@ body{
 	background-color: #000000;
   padding: 0px;
   margin: 0px;
+	#gradient{
+		width: 100%;
+
+		height: 100vh;
+		
 	
-	.container{
-		&#gradient{
-			width: 100%;
+		.container{
 			max-width: 80em;
-			height: 100vh;
 			padding: 0;
 			margin: 0 auto;
-		}
-		@media screen and (min-width:768px){
-			width: 80%;
-		}
-
-		.row{
-
-			&.header{
-				margin: 50px auto 45px;
-				p{
-					text-align: center;
-					font-size: 12px;
-					letter-spacing: 10px;
-					color: #c9d1d3;
-
-					@media screen and(min-width:770px){
-					    text-align: center;
-					    font-size: 12px;
-					    letter-spacing: 10px;
-				    }
-				}
-				
-				a.header-btn{
-				    border: 1.5px solid #bdcfca;
-				    color: #bdcfca;
-				    padding: 5px;
-				    position: absolute;
-				    top: 4em;
-				    left: 2em;
-				    font-size: 9px;
-				    letter-spacing: 2px;
-				    border-radius: 2px;
-				    text-transform: uppercase;
-
-					&:hover, 
-					&:active,
-					&:focus {
-						border: 0;
-					    outline: 2px solid #bdcfca;
-					    border-radius: 2px;
-							padding: 7px;
-							text-decoration: none;
-					}
-					
-					
-				}
+			@media screen and (min-width:768px){
+				width: 80%;
 			}
 
-				&.main {
-					border-top: 1px solid rgba(65,180,175,.5);
-					border-bottom: 1px solid rgba(65,180,175,.5);
+			.row{
 
-					&.about, 
-					&.work,
-					&.contact{
-						border-top: none;
+				&.header{
+					margin: 50px auto 45px;
+					p{
+						text-align: center;
+						font-size: 12px;
+						letter-spacing: 10px;
+						color: #c9d1d3;
+
+						@media screen and(min-width:770px){
+								text-align: center;
+								font-size: 12px;
+								letter-spacing: 10px;
+							}
 					}
 					
-
-				}
-			
-
-				&.footer {
-					.footerCopy{
-						text-align:center;
-
-						p{
+					a.header-btn{
+							border: 1.5px solid #bdcfca;
 							color: #bdcfca;
+							padding: 5px;
+							position: absolute;
+							top: 4em;
+							left: 2em;
 							font-size: 9px;
+							letter-spacing: 2px;
+							border-radius: 2px;
 							text-transform: uppercase;
-							letter-spacing: 6px;
-							opacity: .4;
-							padding-top: 10px;
+
+						&:hover, 
+						&:active,
+						&:focus {
+							border: 0;
+								outline: 2px solid #bdcfca;
+								border-radius: 2px;
+								padding: 7px;
+								text-decoration: none;
 						}
+						
+						
 					}
 				}
+
+					&.main {
+						border-top: 1px solid rgba(65,180,175,.5);
+						border-bottom: 1px solid rgba(65,180,175,.5);
+
+						&.about, 
+						&.work,
+						&.contact{
+							border-top: none;
+						}
+						
+
+					}
+				
+
+					&.footer {
+						.footerCopy{
+							text-align:center;
+
+							p{
+								color: #bdcfca;
+								font-size: 9px;
+								text-transform: uppercase;
+								letter-spacing: 6px;
+								opacity: .4;
+								padding-top: 10px;
+							}
+						}
+					}
+			}
 		}
 	}
 }

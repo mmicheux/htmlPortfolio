@@ -347,57 +347,58 @@ body {
   background-color: #000000;
   padding: 0px;
   margin: 0px; }
-  body .container#gradient {
+  body #gradient {
     width: 100%;
-    max-width: 80em;
-    height: 100vh;
-    padding: 0;
-    margin: 0 auto; }
-  @media screen and (min-width: 768px) {
-    body .container {
-      width: 80%; } }
-  body .container .row.header {
-    margin: 50px auto 45px; }
-    body .container .row.header p {
-      text-align: center;
-      font-size: 12px;
-      letter-spacing: 10px;
-      color: #c9d1d3; }
-      @media screen and (min-width: 770px) {
-        body .container .row.header p {
+    height: 100vh; }
+    body #gradient .container {
+      max-width: 80em;
+      padding: 0;
+      margin: 0 auto; }
+      @media screen and (min-width: 768px) {
+        body #gradient .container {
+          width: 80%; } }
+      body #gradient .container .row.header {
+        margin: 50px auto 45px; }
+        body #gradient .container .row.header p {
           text-align: center;
           font-size: 12px;
-          letter-spacing: 10px; } }
-    body .container .row.header a.header-btn {
-      border: 1.5px solid #bdcfca;
-      color: #bdcfca;
-      padding: 5px;
-      position: absolute;
-      top: 4em;
-      left: 2em;
-      font-size: 9px;
-      letter-spacing: 2px;
-      border-radius: 2px;
-      text-transform: uppercase; }
-      body .container .row.header a.header-btn:hover, body .container .row.header a.header-btn:active, body .container .row.header a.header-btn:focus {
-        border: 0;
-        outline: 2px solid #bdcfca;
-        border-radius: 2px;
-        padding: 7px;
-        text-decoration: none; }
-  body .container .row.main {
-    border-top: 1px solid rgba(65, 180, 175, 0.5);
-    border-bottom: 1px solid rgba(65, 180, 175, 0.5); }
-    body .container .row.main.about, body .container .row.main.work, body .container .row.main.contact {
-      border-top: none; }
-  body .container .row.footer .footerCopy {
-    text-align: center; }
-    body .container .row.footer .footerCopy p {
-      color: #bdcfca;
-      font-size: 9px;
-      text-transform: uppercase;
-      letter-spacing: 6px;
-      opacity: .4;
-      padding-top: 10px; }
+          letter-spacing: 10px;
+          color: #c9d1d3; }
+          @media screen and (min-width: 770px) {
+            body #gradient .container .row.header p {
+              text-align: center;
+              font-size: 12px;
+              letter-spacing: 10px; } }
+        body #gradient .container .row.header a.header-btn {
+          border: 1.5px solid #bdcfca;
+          color: #bdcfca;
+          padding: 5px;
+          position: absolute;
+          top: 4em;
+          left: 2em;
+          font-size: 9px;
+          letter-spacing: 2px;
+          border-radius: 2px;
+          text-transform: uppercase; }
+          body #gradient .container .row.header a.header-btn:hover, body #gradient .container .row.header a.header-btn:active, body #gradient .container .row.header a.header-btn:focus {
+            border: 0;
+            outline: 2px solid #bdcfca;
+            border-radius: 2px;
+            padding: 7px;
+            text-decoration: none; }
+      body #gradient .container .row.main {
+        border-top: 1px solid rgba(65, 180, 175, 0.5);
+        border-bottom: 1px solid rgba(65, 180, 175, 0.5); }
+        body #gradient .container .row.main.about, body #gradient .container .row.main.work, body #gradient .container .row.main.contact {
+          border-top: none; }
+      body #gradient .container .row.footer .footerCopy {
+        text-align: center; }
+        body #gradient .container .row.footer .footerCopy p {
+          color: #bdcfca;
+          font-size: 9px;
+          text-transform: uppercase;
+          letter-spacing: 6px;
+          opacity: .4;
+          padding-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */
