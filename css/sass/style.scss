@@ -17,7 +17,8 @@ body{
 		height: auto;
 		
 		@media screen and (min-width: 768px){
-			height: 120vh;
+			height: 180vh;
+			overflow: hidden;
 		}
 	
 		.container{
